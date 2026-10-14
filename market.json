@@ -1,1 +1,62 @@
-{"plugins":[{"desc":"BTSOW 磁力搜索 PY 爬虫源：站内 JSON 接口搜片，拿磁链","engine":"py","id":"btsow-source","md5":"ac3938ab0e7eaa5a4394c45d5e1fb77e","name":"BTSOW 磁力搜索","type":"source","url":"https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/btsow-source-1.0.1.zip","version":"1.0.1"},{"desc":"把磁力链接转成 HTTP 视频流，供播放器直接播放","engine":"nodejs","id":"magnet-stream","md5":"93b24545e2ebcd6e6fd1c5c9dabed763","name":"磁力转播服务","type":"server","url":"https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/magnet-stream-1.0.4.zip","version":"1.0.4"}],"updated":"2026-10-14","version":1}
+{
+  "logo": "icons/market.png",
+  "name": "侠影官方插件市场",
+  "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
+  "updatedAt": "2026-10-14T10:21:52Z",
+  "plugins": [
+    {
+      "id": "btsow-source",
+      "name": "BTSOW 磁力搜索",
+      "author": "侠影",
+      "desc": "BTSOW 磁力搜索 PY 爬虫源：站内 JSON 接口搜片，拿磁链",
+      "version": "1.0.2",
+      "type": "source",
+      "engine": "py",
+      "size": 7473,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/btsow-source-1.0.2.zip",
+      "icon": "icons/btsow-source.png",
+      "tags": [
+        "搜索",
+        "磁力"
+      ],
+      "changelog": "v1.0.2：补 plugin.json manifest（id/version/type/platforms），供安装时一致性校验；图标上架。",
+      "md5": "2dceee75f2d471257fabbd252c1038ae",
+      "platforms": [
+        "android",
+        "win32"
+      ],
+      "category": "app",
+      "minApp": "0.22.0",
+      "abis": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "id": "magnet-stream",
+      "name": "磁力转播服务",
+      "author": "侠影",
+      "desc": "把磁力链接转成 HTTP 视频流，供播放器直接播放",
+      "version": "1.0.5",
+      "type": "server",
+      "engine": "nodejs",
+      "size": 33861539,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/magnet-stream-1.0.5.zip",
+      "icon": "icons/magnet-stream.png",
+      "tags": [
+        "服务",
+        "磁力"
+      ],
+      "changelog": "v1.0.5：补 plugin.json manifest，供安装时一致性校验；图标上架。",
+      "md5": "80662b8fbd8f2a14e74b2bbd83311c77",
+      "platforms": [
+        "android",
+        "win32"
+      ],
+      "category": "env",
+      "minApp": "0.22.0",
+      "abis": [
+        "arm64-v8a"
+      ]
+    }
+  ]
+}
