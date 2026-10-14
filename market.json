@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-14T10:21:52Z",
+  "updatedAt": "2026-10-14T14:35:00Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -57,6 +57,32 @@
       "abis": [
         "arm64-v8a"
       ]
+    },
+    {
+      "id": "py-deps",
+      "name": "PY 引擎依赖包",
+      "author": "侠影",
+      "desc": "PY 规则运行依赖：brotli（br 解压）+ charset-normalizer（编码识别）。规则报缺库失败时装这个。",
+      "version": "1.0.0",
+      "type": "env",
+      "size": 408020,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/py-deps-1.0.0.zip",
+      "icon": "icons/py-deps.png",
+      "tags": [
+        "依赖",
+        "PY"
+      ],
+      "changelog": "v1.0.0：首版。brotli 1.0.7（Chaquopy arm64 轮子，br 解压）+ charset-normalizer 3.5.2（纯 Python，编码识别优于 chardet）。",
+      "md5": "2da67e38661dbedb0890f3693a33eeca",
+      "platforms": [
+        "android"
+      ],
+      "category": "env",
+      "minApp": "0.27.2",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "engine": "py"
     }
   ]
 }

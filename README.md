@@ -59,6 +59,7 @@
 | 条目 | id | 版本 | type | 包 |
 |---|---|---|---|---|
 | 磁力转播服务 | `magnet-stream` | 1.0.5 | server | `magnet-stream-1.0.5.zip` |
+| PY 引擎依赖包 | `py-deps` | 1.0.0 | env | `py-deps-1.0.0.zip` |
 
 ### 应用（app）
 
