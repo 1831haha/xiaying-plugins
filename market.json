@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-14T14:35:00Z",
+  "updatedAt": "2026-10-15T03:59:56Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -83,6 +83,58 @@
         "arm64-v8a"
       ],
       "engine": "py"
+    },
+    {
+      "id": "mpv-player",
+      "name": "libmpv 播放器引擎",
+      "author": "侠影",
+      "desc": "libmpv 播放器引擎 native 库（mpv v0.40.0 + FFmpeg，arm64-v8a，约23MB）。安装后可在 设置-播放器内核 里选用 libmpv，硬解能力更强。",
+      "version": "1.0.0",
+      "type": "player",
+      "engine": "",
+      "size": 22974104,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/mpv-player-1.0.0.zip",
+      "icon": "icons/mpv-player.png",
+      "tags": [
+        "播放器",
+        "引擎"
+      ],
+      "changelog": "v1.0.0：首版。含 libmpv.so + FFmpeg 全套 .so（arm64-v8a），装到私有目录，MpvPluginLoader 按序加载。",
+      "md5": "a48eb7503a6bc0453306d7c808c7280b",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.29.0",
+      "abis": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "id": "btsow-source-poster",
+      "name": "BTSOW 磁力搜索（海报版）",
+      "author": "侠影",
+      "desc": "BTSOW 磁力搜索 PY 爬虫源，海报版：列表带豆瓣配图。站内 JSON 接口搜片，拿磁链。",
+      "version": "1.0.0",
+      "type": "source",
+      "engine": "py",
+      "size": 11593,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/btsow-source-poster-1.0.0.zip",
+      "icon": "icons/btsow-source-poster.png",
+      "tags": [
+        "搜索",
+        "磁力"
+      ],
+      "changelog": "v1.0.0：首版上架市场。豆瓣配图版，搜片即看海报。",
+      "md5": "c088712d1a292ef81dd1ada617177f65",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.22.0",
+      "abis": [
+        "arm64-v8a"
+      ]
     }
   ]
 }
