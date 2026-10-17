@@ -1,0 +1,340 @@
+{
+  "lives": [
+    {
+      "name": "CCTV1",
+      "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+      "logo": "https://tb.zbds.top/logo/CCTV1.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "CCTV2",
+      "url": "http://125.125.236.31:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "logo": "https://tb.zbds.top/logo/CCTV2.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "CCTV3",
+      "url": "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "logo": "https://tb.zbds.top/logo/CCTV3.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "CCTV4",
+      "url": "http://125.125.236.31:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "logo": "https://tb.zbds.top/logo/CCTV4.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "CCTV5",
+      "url": "http://gmxw.7766.org:808/hls/93/index.m3u8",
+      "logo": "https://tb.zbds.top/logo/CCTV5.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "CCTV6",
+      "url": "http://69.30.245.50/live/cctv6.m3u8",
+      "logo": "https://tb.zbds.top/logo/CCTV6.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "CCTV8",
+      "url": "http://gmxw.7766.org:808/hls/96/index.m3u8",
+      "logo": "https://tb.zbds.top/logo/CCTV8.png",
+      "group": "央视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "湖南卫视",
+      "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
+      "logo": "https://tb.zbds.top/logo/湖南卫视.png",
+      "group": "卫视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "浙江卫视",
+      "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+      "logo": "https://tb.zbds.top/logo/浙江卫视.png",
+      "group": "卫视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://125.125.236.31:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "logo": "https://tb.zbds.top/logo/江苏卫视.png",
+      "group": "卫视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "logo": "https://tb.zbds.top/logo/东方卫视.png",
+      "group": "卫视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "北京卫视",
+      "url": "http://125.125.236.31:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "logo": "https://tb.zbds.top/logo/北京卫视.png",
+      "group": "卫视频道",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-新橙記Orange丶",
+      "url": "https://live.ottiptv.cc/huya/30590779",
+      "logo": "https://huyaimg.msstatic.com/avatar/1050/b7/0ed46e1fd1bd12cf384f42401cc128_180_135.jpg?1750419913",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-周星星",
+      "url": "https://live.ottiptv.cc/huya/11342412",
+      "logo": "https://huyaimg.msstatic.com/avatar/1084/37/7c96090110880e88916b11e4a18cf9_180_135.jpg?1526894329",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-武林萌主唐小姐",
+      "url": "https://live.ottiptv.cc/huya/11336726",
+      "logo": "https://huyaimg.msstatic.com/avatar/1099/f6/53aafc173b24d0c336faac2e49b822_180_135.jpg?1445851392",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-视觉-秦VV",
+      "url": "https://live.ottiptv.cc/huya/396738",
+      "logo": "https://huyaimg.msstatic.com/avatar/1028/0c/ecde8a9e4305ff922a7da06beac865_180_135.jpg?1633053767",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-校长莫开腔",
+      "url": "https://live.ottiptv.cc/huya/20969120",
+      "logo": "https://huyaimg.msstatic.com/avatar/1003/df/ff87f5ef3aec3f0a55513113bab3b6_180_135.jpg?1597853783",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-baby丶贝贝",
+      "url": "https://live.ottiptv.cc/huya/30697189",
+      "logo": "https://huyaimg.msstatic.com/avatar/1060/2a/40ef0eae13a49537b8c81bc95424d7_180_135.jpg?1775897185",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-蛮多的功夫",
+      "url": "https://live.ottiptv.cc/huya/23740156",
+      "logo": "https://huyaimg.msstatic.com/avatar/1044/d8/b11b405e9f2bd9d403a62334ab9f64_180_135.jpg?1606985476",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-小木子先生丶",
+      "url": "https://live.ottiptv.cc/huya/11342396",
+      "logo": "https://huyaimg.msstatic.com/avatar/1081/9e/65115e9fb3108fcb101361c8ab9dd7_180_135.jpg",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-婧婧丶",
+      "url": "https://live.ottiptv.cc/huya/618917",
+      "logo": "https://huyaimg.msstatic.com/avatar/1013/2d/d2661ebff6e5569998074adef29b57_180_135.jpg?1712954764",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-浅浅爱电影",
+      "url": "https://live.ottiptv.cc/huya/31274232",
+      "logo": "https://huyaimg.msstatic.com/avatar/1077/29/fd4f9175d62f8d4b18dadb334dba25_180_135.jpg?1787264203",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-依一不吃香菜",
+      "url": "https://live.ottiptv.cc/huya/31307996",
+      "logo": "https://huyaimg.msstatic.com/avatar/1085/f6/2560167039d4cb741d3522ea81877d_180_135.jpg?1782378916",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-伊太刀",
+      "url": "https://live.ottiptv.cc/huya/31235261",
+      "logo": "https://huyaimg.msstatic.com/avatar/1051/69/f74876d8d45bf3c8852547db789df4_180_135.jpg?1775664231",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-悠悠爱电影",
+      "url": "https://live.ottiptv.cc/huya/30611864",
+      "logo": "https://huyaimg.msstatic.com/avatar/1041/a5/10ded51e3ad604d7c12bee7e4da8aa_180_135.jpg?1744288855",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-鯎爺",
+      "url": "https://live.ottiptv.cc/huya/11352944",
+      "logo": "https://huyaimg.msstatic.com/avatar/1056/e7/c61ec3ae80bbc93817186f3a41d47c_180_135.jpg?1449028717",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-小虎牙-QQFbPxwM1A",
+      "url": "https://live.ottiptv.cc/huya/11352958",
+      "logo": "https://huyaimg.msstatic.com/avatar/1071/e7/d4f17fe8278aa00c302295e86756bf_180_135.jpg",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-福宝儿丷",
+      "url": "https://live.ottiptv.cc/huya/31059425",
+      "logo": "https://huyaimg.msstatic.com/avatar/1087/10/7760ba74bda5277cca8e41c939a27a_180_135.jpg?1777044480",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-大梨o",
+      "url": "https://live.ottiptv.cc/huya/30830295",
+      "logo": "https://huyaimg.msstatic.com/avatar/1066/26/e33dad18b4746dc22e955382782bab_180_135.jpg?1749685573",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-天羊盖地虎儿乔家劲",
+      "url": "https://live.ottiptv.cc/huya/30065341",
+      "logo": "https://huyaimg.msstatic.com/avatar/1063/55/82aa331e27035eedd472632a23807c_180_135.jpg?1755936838",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-虎牙中式台球比赛",
+      "url": "https://live.ottiptv.cc/huya/29588938",
+      "logo": "https://huyaimg.msstatic.com/avatar/1057/81/47a4d354831652908c6ac1e9ff552e_180_135.jpg?1748744474",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-静静影视",
+      "url": "https://live.ottiptv.cc/huya/30712558",
+      "logo": "https://huyaimg.msstatic.com/avatar/1012/68/e44c4a9939d74c32dc39944882ec61_180_135.jpg?1744585802",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-偶看见常威在打来福",
+      "url": "https://live.ottiptv.cc/huya/30627334",
+      "logo": "https://huyaimg.msstatic.com/avatar/1065/dc/858818a088cf3d7ef46732fb435740_180_135.jpg?1744692445",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-萌萌小桃子",
+      "url": "https://live.ottiptv.cc/huya/29807256",
+      "logo": "https://huyaimg.msstatic.com/avatar/1094/37/ed2fa6731b73a5c711724c93fde94e_180_135.jpg?1745824199",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-永别兵火里",
+      "url": "https://live.ottiptv.cc/huya/30772632",
+      "logo": "https://huyaimg.msstatic.com/avatar/1026/59/686f2bab2fe1b208ec8c02db4a3199_180_135.jpg?1749510036",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-花花影院",
+      "url": "https://live.ottiptv.cc/huya/29863394",
+      "logo": "https://huyaimg.msstatic.com/avatar/1022/68/dc5766e27199b2af146fc9d74d03ba_180_135.jpg?1779685160",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-子宽放",
+      "url": "https://live.ottiptv.cc/huya/30362138",
+      "logo": "https://huyaimg.msstatic.com/avatar/1092/24/d713c88119ab980d67f1242af3c366_180_135.jpg?1749208002",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-施施来啦",
+      "url": "https://live.ottiptv.cc/huya/31007029",
+      "logo": "https://huyaimg.msstatic.com/avatar/1060/b2/4a3a0a7e70406bae51260b473cf488_180_135.jpg?1759414293",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-精彩小雨幕",
+      "url": "https://live.ottiptv.cc/huya/30080148",
+      "logo": "https://huyaimg.msstatic.com/avatar/1023/8d/b5aab3e6b834af54fe62842018316d_180_135.jpg?1721298644",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-不吃香菜丫丫",
+      "url": "https://live.ottiptv.cc/huya/30612264",
+      "logo": "https://huyaimg.msstatic.com/avatar/1098/48/285066841d020cef9981f1289dc1eb_180_135.jpg?1740660197",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-黄口咸阳树",
+      "url": "https://live.ottiptv.cc/huya/30692708",
+      "logo": "https://huyaimg.msstatic.com/avatar/1012/c8/bf3085b836f02ace75b71f020470e1_180_135.jpg?1743375918",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    },
+    {
+      "name": "虎牙-野原的一家-",
+      "url": "https://live.ottiptv.cc/huya/29628048",
+      "logo": "https://huyaimg.msstatic.com/avatar/1078/b8/cbbbe333bc4c96810118d6fbee8331_180_135.jpg?1790956082",
+      "group": "虎牙直播",
+      "ua": "",
+      "epg": ""
+    }
+  ]
+}
