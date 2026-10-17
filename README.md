@@ -69,3 +69,4 @@
 | BTSOW 磁力搜索（海报版） | `btsow-source-poster` | 1.0.0 | source | `btsow-source-poster-1.0.0.zip` |
 | libmpv 播放器引擎 | `mpv-player` | 1.0.0 | player | `mpv-player-1.0.0.zip` |
 | 在线字幕搜索 | `subtitle-search` | 1.0.0 | subtitle | `subtitle-search-1.0.0.zip` |
+| 央视卫视直播 | `cctv-live` | 1.0.0 | live | `cctv-live-1.0.0.json` |
