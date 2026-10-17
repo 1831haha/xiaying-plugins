@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-17T14:45:00Z",
+  "updatedAt": "2026-10-17T15:45:00Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -166,25 +166,25 @@
       "id": "cctv-live",
       "name": "央视卫视直播",
       "author": "侠影",
-      "desc": "CCTV/卫视 12 路 + 虎牙直播 30 路，全部经 HTTP 实测（2026-10-17 验链）",
-      "version": "1.0.1",
+      "desc": "CCTV/卫视 12 路实测可用 + 虎牙总站入口（分类选直播间）",
+      "version": "1.0.2",
       "type": "live",
-      "size": 11372,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.1.json",
+      "size": 3100,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.2.json",
       "icon": "icons/market.png",
       "tags": [
         "直播",
         "央视",
         "卫视"
       ],
-      "changelog": "v1.0.1：新增虎牙直播分组 30 路（网关中转、无时效 token）；logo 统一 https。",
-      "md5": "8b6be16c3c71c230e2296b51fd079ad6",
+      "changelog": "v1.0.2：虎牙 30 个主播条目合并为 1 个总站入口，点进去按分类选直播间（App v0.79.0+ 支持）。",
+      "md5": "2d4996de342b99e3fb75ff14c44ffeac",
       "platforms": [
         "android",
         "win32"
       ],
       "category": "app",
-      "minApp": "0.22.0",
+      "minApp": "0.79.0",
       "abis": [
         "arm64-v8a"
       ]
