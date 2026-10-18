@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-17T15:45:00Z",
+  "updatedAt": "2026-10-18T09:55:00Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -166,19 +166,19 @@
       "id": "cctv-live",
       "name": "央视卫视直播",
       "author": "侠影",
-      "desc": "CCTV 17 路 + 地方卫视 25 路实测可用 + 虎牙总站入口",
-      "version": "1.0.3",
+      "desc": "CCTV 17 路 + 地方卫视 25 路实测可用",
+      "version": "1.0.4",
       "type": "live",
-      "size": 10691,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.3.json",
+      "size": 10440,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.4.json",
       "icon": "icons/market.png",
       "tags": [
         "直播",
         "央视",
         "卫视"
       ],
-      "changelog": "v1.0.3：频道从 13 路扩到 43 路。央视补全 CCTV7/9/10/11/12/13/14/15/17/CCTV5+（CCTV1 换掉已失效的旧源）；卫视新增广东/深圳/四川/东南/江西/海南/湖北/黑龙江/广西/甘肃/云南/青海/河北/山东/西藏/河南/内蒙古/安徽/贵州/重庆 20 路；湖南卫视/东方卫视换可用源；仅保留虎牙总入口。",
-      "md5": "bec3c7832e131b5af7f302319fca3678",
+      "changelog": "v1.0.4：去掉虎牙直播入口（共 42 路：央视 17 路全含 CCTV5+、卫视 25 路）。",
+      "md5": "621d076773c94b2c89066c8a56d79c1c",
       "platforms": [
         "android",
         "win32"

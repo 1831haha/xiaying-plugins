@@ -335,14 +335,6 @@
       "group": "卫视频道",
       "ua": "",
       "epg": ""
-    },
-    {
-      "name": "虎牙直播",
-      "url": "huya://portal",
-      "logo": "https://huyaimg.msstatic.com/avatar/1057/81/47a4d354831652908c6ac1e9ff552e_180_135.jpg?1748744474",
-      "group": "虎牙直播",
-      "ua": "",
-      "epg": ""
     }
   ]
 }
