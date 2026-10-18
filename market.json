@@ -166,19 +166,19 @@
       "id": "cctv-live",
       "name": "央视卫视直播",
       "author": "侠影",
-      "desc": "CCTV/卫视 12 路实测可用 + 虎牙总站入口（分类选直播间）",
-      "version": "1.0.2",
+      "desc": "CCTV 17 路 + 地方卫视 25 路实测可用 + 虎牙总站入口",
+      "version": "1.0.3",
       "type": "live",
-      "size": 3100,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.2.json",
+      "size": 10691,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.3.json",
       "icon": "icons/market.png",
       "tags": [
         "直播",
         "央视",
         "卫视"
       ],
-      "changelog": "v1.0.2：虎牙 30 个主播条目合并为 1 个总站入口，点进去按分类选直播间（App v0.79.0+ 支持）。",
-      "md5": "2d4996de342b99e3fb75ff14c44ffeac",
+      "changelog": "v1.0.3：频道从 13 路扩到 43 路。央视补全 CCTV7/9/10/11/12/13/14/15/17/CCTV5+（CCTV1 换掉已失效的旧源）；卫视新增广东/深圳/四川/东南/江西/海南/湖北/黑龙江/广西/甘肃/云南/青海/河北/山东/西藏/河南/内蒙古/安徽/贵州/重庆 20 路；湖南卫视/东方卫视换可用源；仅保留虎牙总入口。",
+      "md5": "bec3c7832e131b5af7f302319fca3678",
       "platforms": [
         "android",
         "win32"
@@ -187,7 +187,8 @@
       "minApp": "0.79.0",
       "abis": [
         "arm64-v8a"
-      ]
+      ],
+      "updatedAt": "2026-10-18T15:30:00+08:00"
     }
   ]
 }
