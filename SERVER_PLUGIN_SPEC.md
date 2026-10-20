@@ -45,7 +45,7 @@ some-service-1.0.0.zip
 | `args` | 否 | 数组，传给可执行文件的参数；支持 `${PORT}` 占位（也可用环境变量） |
 | `port` | 否 | `0` = 自动分配（从 29578 起顺序找空闲，见第四节）；非 0 = 指定端口 |
 | `healthPath` | 否 | 健康检查路径，默认 `/healthz`；App 以 `GET http://127.0.0.1:<port><healthPath>` 探活 |
-| `env` | 否 | 键值对，注入进程环境变量；App 额外注入 `PORT` 与 `SERVICE_PORT`（分配到的端口） |
+| `env` | 否 | 键值对，注入进程环境变量；App 额外注入 `PORT` 与 `SERVICE_PORT`（分配到的端口）及 `TMPDIR`（私有临时目录，见第五节；`env` 自带 `TMPDIR` 时不覆盖） |
 | `sha256` | 二选一必填 | 对 `command` 可执行文件的 SHA-256（64 位十六进制小写） |
 | `md5` | 二选一必填 | 兼容旧口径；`sha256` 存在时优先用 `sha256` |
 
@@ -84,7 +84,8 @@ some-service-1.0.0.zip
 ## 五、进程模型（App 侧）
 
 - `ProcessBuilder` 启动：`command` 解析到 workDir 下的文件，`workingDirectory = workDir`，
-  环境变量 = `env` + `PORT`/`SERVICE_PORT`。
+  环境变量 = `env` + `PORT`/`SERVICE_PORT` + `TMPDIR`（指向 `filesDir/service_tmp` 私有目录，注入前自动建目录）。
+- 工作目录位于共享存储时 FIFO、Unix 套接字等特殊文件应创建在 App 注入的 `TMPDIR`（私有目录）下，不要建在工作目录（共享存储 FUSE 不支持 `mkfifo` 等操作，建在工作目录必失败）。
 - 脚本类 `command`（`.sh`）经 `/system/bin/sh <脚本绝对路径> <args...>` 解释执行——Android 16 对 App 私有目录与公共存储均 noexec，直接 exec 脚本必失败（exit=126 Permission denied，2026-10-20 真机实测），服务卡展示的「真实命令行」与实际执行一致（sh 形式）。
 - 原生二进制类 `command` 仍直接 exec，但同样受 noexec 限制：放在上述目录的原生二进制大概率无法直接执行，需另走 jniLibs 随包分发等路线，P1 PHP 运行时即受此限（见附录）。
 - 子进程 stdout/stderr 合并，进每插件环形缓冲（最近 200 行），同时进 `LogBus`（tag `ServicePlugin`）；
