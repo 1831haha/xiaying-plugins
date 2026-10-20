@@ -14,7 +14,7 @@ some-service-1.0.0.zip
     └── ...
 ```
 
-- 安装落盘：`filesDir/server_plugins/<id>/`（App 私有目录；native 场景下公开目录可能 noexec）。
+- 安装落盘：`/storage/emulated/0/xiaying/service/<id>/`（公共存储，路径经 App 内 StoragePaths 收敛；v0.128.0 起从旧的 `filesDir/server_plugins/<id>/` 迁移，旧安装首次运行自动搬移并更新注册表，不丢数据；公共存储不可用时回退 filesDir 旧根并记日志）。注册表仍留在 filesDir（私有、稳定）。
 - 安装时整包解压，解压前逐条目做 zip-slip 防护（目标必须落在安装目录内），非法路径直接拒绝安装。
 - 同 id 新版本覆盖安装：先停掉正在运行的进程，再解压覆盖（正在跑的旧进程不允许边跑边换文件）。
 
@@ -41,7 +41,7 @@ some-service-1.0.0.zip
 | `name` | 是 | 中文显示名 |
 | `version` | 是 | 语义版本，与 market.json / plugin.json 做一致性校验 |
 | `workDir` | 是 | 相对包根的工作目录；进程 workingDirectory 设为它 |
-| `command` | 是 | 相对 workDir 的可执行文件路径；安装时 App 会尝试 `chmod +x` 兜底 |
+| `command` | 是 | 相对 workDir 的启动文件路径；脚本（`.sh`）由 App 经 `/system/bin/sh` 解释执行（见第五节），原生二进制直接执行 |
 | `args` | 否 | 数组，传给可执行文件的参数；支持 `${PORT}` 占位（也可用环境变量） |
 | `port` | 否 | `0` = 自动分配（从 29578 起顺序找空闲，见第四节）；非 0 = 指定端口 |
 | `healthPath` | 否 | 健康检查路径，默认 `/healthz`；App 以 `GET http://127.0.0.1:<port><healthPath>` 探活 |
@@ -83,8 +83,10 @@ some-service-1.0.0.zip
 
 ## 五、进程模型（App 侧）
 
-- `ProcessBuilder` 启动：`command` 解析到 workDir 下的可执行文件，`workingDirectory = workDir`，
+- `ProcessBuilder` 启动：`command` 解析到 workDir 下的文件，`workingDirectory = workDir`，
   环境变量 = `env` + `PORT`/`SERVICE_PORT`。
+- 脚本类 `command`（`.sh`）经 `/system/bin/sh <脚本绝对路径> <args...>` 解释执行——Android 16 对 App 私有目录与公共存储均 noexec，直接 exec 脚本必失败（exit=126 Permission denied，2026-10-20 真机实测），服务卡展示的「真实命令行」与实际执行一致（sh 形式）。
+- 原生二进制类 `command` 仍直接 exec，但同样受 noexec 限制：放在上述目录的原生二进制大概率无法直接执行，需另走 jniLibs 随包分发等路线，P1 PHP 运行时即受此限（见附录）。
 - 子进程 stdout/stderr 合并，进每插件环形缓冲（最近 200 行），同时进 `LogBus`（tag `ServicePlugin`）；
   日志读取线程随进程退出自动回收。
 - 状态：`RUNNING`（进程存活）/`STOPPED`（未运行）/`ERROR`（进程非 0 退出；用户主动 stop 不算异常）。
@@ -95,10 +97,10 @@ some-service-1.0.0.zip
 
 安装/启动前可跑一遍，逐项给成功/失败 + 细节，并记 `LogBus`：
 
-1. 私有目录可执行：往 `filesDir` 写一段 `echo` 小脚本，`chmod +x` 后真实执行一次（脚本短、安全、可重复跑）。
+1. 服务目录可经 sh 执行脚本：往服务根目录（`xiaying/service`）写一段 `echo` 小脚本，用 `/system/bin/sh` 解释执行一次（与实际启动口径一致；直接 exec 在 Android 16 必挂，见第五节）。
 2. 当前 ABI：`android.os.Build.SUPPORTED_ABIS`。
 3. 首个可用端口：从 29578 起探测。
-4. 私有目录可写：`filesDir` 建临时文件写删。
+4. 目录可写：服务根目录与 `filesDir` 建临时文件写删。
 
 ## 七、发版流程
 
@@ -112,4 +114,5 @@ some-service-1.0.0.zip
 2. **依赖树**：TERMUX_PKG_DEPENDS 共 20 个运行时包——capstone、libandroid-glob、libandroid-support、libbz2、libc++、libcurl、libffi、libgmp、libiconv、libicu、libresolv-wrapper、libsqlite、libxml2、libxslt、libzip、oniguruma、openssl、pcre2、readline、tidy、zlib。需整树随插件下发到 workDir/lib，启动时注入 `LD_LIBRARY_PATH=<workDir>/lib`、`TMPDIR=<workDir>/tmp`（Android 无 /tmp，不设会话/临时文件会坏）、`HOME=<workDir>`。Termux 全家桶安装体积约 100–150MB，php 子树（本树）压缩后估计 30–60MB；具体数字以首次打包实测为准。精简路线（自编 --disable-all 只留 T4 需要的扩展）可显著减小，但要自维护 NDK 构建链，P1 先走提取路线验证。
 3. **App 内嵌先例存在**：社区已有把自编 PHP 打进 Android App 的完整先例（re-ws.pl 的 PHP-for-Android 打包方案：php.so + libsqlite3.so 以 jniLibs 形态随 APK 分发，LD_LIBRARY_PATH 指向自带库目录、非 root 设备可跑）。说明 exec 自有二进制这条路在 Android 上工程可行。
 4. **硬门禁：Android 16（用户机 REDMI K80 / HyperOS 3）上从 App 私有目录 exec 私有二进制**，历史上 Termux 等应用长期如此工作，但必须以「服务插件」页的环境自检（写脚本→chmod→真实执行）真机结果为准。自检不过，P1 暂停、不硬编方案；自检通过则 P1 按提取路线打包 php 运行时插件（端口 29578，已预留）。
+   - **2026-10-20 真机实测结论**：私有目录直接执行脚本 exit=126 Permission denied（noexec），门禁未过。v0.128.0 起脚本类服务改经 `/system/bin/sh` 解释执行绕行（脚本服务不受影响）；原生二进制（含 PHP 本体）仍受此限，P1 继续暂停，等 jniLibs 分发等替代路线。
 5. 静态 PHP 方案（static-php.dev/phpmicro、FrankenPHP）目前只覆盖桌面 Linux/mac/Windows，无现成 Android aarch64 预构建，不作为 P1 路线。
