@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-18T09:55:00Z",
+  "updatedAt": "2026-10-20T16:00:30Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -54,6 +54,32 @@
       ],
       "category": "env",
       "minApp": "0.22.0",
+      "abis": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "id": "hello-service",
+      "name": "示例服务",
+      "author": "侠影",
+      "desc": "侠影官方示例服务：验证服务插件安装/启动/探活全链路，根路径回文本状态页、/healthz 探活；无实际业务功能，是编写服务型插件的参考模板",
+      "version": "1.1.0",
+      "type": "server",
+      "engine": "sh",
+      "size": 2067,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/hello-service-1.1.0.zip",
+      "icon": "icons/market.png",
+      "tags": [
+        "服务",
+        "示例"
+      ],
+      "changelog": "v1.1.0：升正式版上架市场。server.json 配置写全（固定端口 29578、HTTP 探活 /healthz、env/healthMode/autoStart 声明）；根路径 / 改回文本状态页（服务名/运行状态/时间/监听端口）；FIFO 固定建在 App 注入的 TMPDIR（共享存储 FUSE 建不了 FIFO）。v1.0.0 为 App 内置演示包、未上架。",
+      "md5": "443646989bcebb18731cd24e9e006c99",
+      "platforms": [
+        "android"
+      ],
+      "category": "env",
+      "minApp": "0.120.0",
       "abis": [
         "arm64-v8a"
       ]
