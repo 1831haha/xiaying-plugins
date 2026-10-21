@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-21T01:21:22Z",
+  "updatedAt": "2026-10-21T04:19:35Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -220,24 +220,24 @@
       "id": "php",
       "name": "PHP 运行时",
       "author": "侠影",
-      "desc": "PHP 运行时，供 T4-PHP 等服务调用",
-      "version": "8.5.1",
+      "desc": "PHP 运行时（自编静态单文件，零动态库依赖，直接运行不走 linker），供 T4-PHP 等服务调用",
+      "version": "8.3.35",
       "type": "runtime",
       "engine": "php",
-      "size": 88357366,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.5.1.zip",
+      "size": 7208936,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.3.35-static.zip",
       "icon": "icons/php.png",
       "tags": [
         "运行",
         "PHP"
       ],
-      "changelog": "v8.5.1：首版上架。Termux aarch64 php 8.5.1 + 全部 NEEDED 依赖库（33 个 .so，含 ICU 数据）；供 T4-PHP 等服务调用，服务启动时经 linker64 + --library-path 加载。",
-      "md5": "f06616b4636334822e4d9d3ee2c43920",
+      "changelog": "v8.3.35-static：自编静态单文件替代 Termux 动态版——NDK r27c 直编 PHP 8.3.35，零 .so 依赖、直接运行；包从 88MB 缩到 7.2MB。版本号看着回落是换了构建路线（动态→静态），不是降级；已装动态版的用户在市场会看到可更新，一键迁移。",
+      "md5": "47ad13d989273f489f192926def3c0cd",
       "platforms": [
         "android"
       ],
       "category": "env",
-      "minApp": "0.137.0",
+      "minApp": "0.139.0",
       "abis": [
         "arm64-v8a"
       ]

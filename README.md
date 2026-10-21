@@ -61,7 +61,7 @@
 | 磁力转播服务 | `magnet-stream` | 1.0.5 | server | `magnet-stream-1.0.5.zip` |
 | 示例服务 | `hello-service` | 1.1.0 | server | `hello-service-1.1.0.zip` |
 | PY 引擎依赖包 | `py-deps` | 1.0.0 | env | `py-deps-1.0.0.zip` |
-| PHP 运行时 | `php` | 8.5.1 | runtime | `php-8.5.1.zip` |
+| PHP 运行时 | `php` | 8.3.35 | runtime | `php-8.3.35-static.zip` |
 | 弹幕服务 | `danmu-service` | 1.0.0 | server | `danmu-service-1.0.0.zip` |
 
 ### 应用（app）
