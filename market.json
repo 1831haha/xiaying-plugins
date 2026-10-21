@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-21T01:04:20Z",
+  "updatedAt": "2026-10-21T01:21:22Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -238,6 +238,32 @@
       ],
       "category": "env",
       "minApp": "0.137.0",
+      "abis": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "id": "danmu-service",
+      "name": "弹幕服务",
+      "author": "侠影",
+      "desc": "弹幕服务：按标题聚合拉取弹幕（LogVar 弹幕源聚合），供播放器合并显示；只看不发，无发送接口。",
+      "version": "1.0.0",
+      "type": "server",
+      "engine": "sh",
+      "size": 5817,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/danmu-service-1.0.0.zip",
+      "icon": "icons/market.png",
+      "tags": [
+        "服务",
+        "弹幕"
+      ],
+      "changelog": "v1.0.0：首版。按标题聚合 14 家 LogVar 弹幕源（单家 5 秒超时、失败跳过），合并去重（同文本 3 秒内只留一条）后按 timeMs 排序回 JSON 列表，上限 1000 条；只看不发，无发送接口；弹弹play 官方源需凭证时作补充（默认关闭）。",
+      "md5": "ab8f8056f6391e7af63400c26b1f3f52",
+      "platforms": [
+        "android"
+      ],
+      "category": "env",
+      "minApp": "0.120.0",
       "abis": [
         "arm64-v8a"
       ]
