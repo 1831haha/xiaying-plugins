@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-20T16:00:30Z",
+  "updatedAt": "2026-10-21T01:04:20Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -215,6 +215,32 @@
         "arm64-v8a"
       ],
       "updatedAt": "2026-10-18T15:30:00+08:00"
+    },
+    {
+      "id": "php",
+      "name": "PHP 运行时",
+      "author": "侠影",
+      "desc": "PHP 运行时，供 T4-PHP 等服务调用",
+      "version": "8.5.1",
+      "type": "runtime",
+      "engine": "php",
+      "size": 88357366,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.5.1.zip",
+      "icon": "icons/php.png",
+      "tags": [
+        "运行",
+        "PHP"
+      ],
+      "changelog": "v8.5.1：首版上架。Termux aarch64 php 8.5.1 + 全部 NEEDED 依赖库（33 个 .so，含 ICU 数据）；供 T4-PHP 等服务调用，服务启动时经 linker64 + --library-path 加载。",
+      "md5": "f06616b4636334822e4d9d3ee2c43920",
+      "platforms": [
+        "android"
+      ],
+      "category": "env",
+      "minApp": "0.137.0",
+      "abis": [
+        "arm64-v8a"
+      ]
     }
   ]
 }
