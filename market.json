@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-21T04:19:35Z",
+  "updatedAt": "2026-10-21T05:27:06Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -221,23 +221,23 @@
       "name": "PHP 运行时",
       "author": "侠影",
       "desc": "PHP 运行时（自编静态单文件，零动态库依赖，直接运行不走 linker），供 T4-PHP 等服务调用",
-      "version": "8.3.35",
+      "version": "8.3.35.1",
       "type": "runtime",
       "engine": "php",
-      "size": 7208936,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.3.35-static.zip",
+      "size": 7208739,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.3.35.1-static.zip",
       "icon": "icons/php.png",
       "tags": [
         "运行",
         "PHP"
       ],
-      "changelog": "v8.3.35-static：自编静态单文件替代 Termux 动态版——NDK r27c 直编 PHP 8.3.35，零 .so 依赖、直接运行；包从 88MB 缩到 7.2MB。版本号看着回落是换了构建路线（动态→静态），不是降级；已装动态版的用户在市场会看到可更新，一键迁移。",
-      "md5": "47ad13d989273f489f192926def3c0cd",
+      "changelog": "v8.3.35.1-static：修复真机 TLS 对齐问题——8.3.35 静态版在 Android 16 上启动即 code=134（Bionic 要求 PT_TLS 对齐至少 64，原二进制只有 8）；本版加 64 字节对齐 TLS 变量重编，其余与 8.3.35 相同。已装 8.3.35 的用户在市场会看到可更新。",
+      "md5": "25c8d6c3c6a161b3365dff542c3a0676",
       "platforms": [
         "android"
       ],
       "category": "env",
-      "minApp": "0.139.0",
+      "minApp": "0.140.0",
       "abis": [
         "arm64-v8a"
       ]
