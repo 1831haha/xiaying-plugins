@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-21T07:37:24Z",
+  "updatedAt": "2026-10-21T13:28:00Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -158,32 +158,6 @@
       ],
       "category": "app",
       "minApp": "0.22.0",
-      "abis": [
-        "arm64-v8a"
-      ]
-    },
-    {
-      "id": "subtitle-search",
-      "name": "在线字幕搜索",
-      "author": "侠影",
-      "desc": "在线字幕搜索插件（SubHD 源）。安装后可在详情页和播放器字幕面板使用在线搜索字幕，下载自动应用+按剧记忆。",
-      "version": "1.0.0",
-      "type": "subtitle",
-      "engine": "",
-      "size": 23572,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/subtitle-search-1.0.0.zip",
-      "icon": "icons/subtitle-search.png",
-      "tags": [
-        "字幕",
-        "搜索"
-      ],
-      "changelog": "v1.0.0：首版。SubHD 在线搜索/下载，zip 自解，5MB 上限。",
-      "md5": "0fc04dc791a0293fa401674812eeed6c",
-      "platforms": [
-        "android"
-      ],
-      "category": "app",
-      "minApp": "0.30.0",
       "abis": [
         "arm64-v8a"
       ]
