@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-22T04:20:17Z",
+  "updatedAt": "2026-10-22T21:17:37Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -195,18 +195,18 @@
       "name": "PHP 运行时",
       "author": "侠影",
       "desc": "PHP 运行时（自编动态单文件，仅动态链系统库），供 T4-PHP 等服务调用",
-      "version": "8.3.35.2",
+      "version": "8.3.36",
       "type": "runtime",
       "engine": "php",
-      "size": 6851622,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.3.35.2-dynamic.zip",
+      "size": 6866092,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/php-8.3.36-dynamic.zip",
       "icon": "icons/php.png",
       "tags": [
         "运行",
         "PHP"
       ],
-      "changelog": "v8.3.35.2-dynamic：改走动态 PIE 路线——8.3.35.1 静态 PIE 在真机上启动即 code=139（段错误），TLS 对齐已过、崩溃点在启动过程内，疑似静态 PIE 被 linker64 当共享库加载时双重 TLS 初始化冲突；动态版由 linker64 按正常程序加载、仅动态链系统 libc/libm/libdl，无需捆 .so。待真机验证。",
-      "md5": "62400041065c4639aafed934500d8ad8",
+      "changelog": "v8.3.36-dynamic：跟进 PHP 官方 2026-10-21 安全更新，修 CVE-2026-109618 与 CVE-2026-109619（CVSS 9.2，未登录远程代码执行，影响 FPM/mod_php/php-cgi 等网页请求 SAPI）；本地只跑 CLI、不接外部请求，风险本来就低，升版是正解。动态 PIE 路线不变（linker64 加载、仅动态链系统 libc/libm/libdl）。待真机验证（版本号显示 8.3.36、demo_spider 首页/详情/播放正常）。",
+      "md5": "dde074cc348ef0a9081627090a26fdd8",
       "platforms": [
         "android"
       ],
@@ -214,7 +214,8 @@
       "minApp": "0.140.0",
       "abis": [
         "arm64-v8a"
-      ]
+      ],
+      "updatedAt": "2026-10-22T21:17:37Z"
     },
     {
       "id": "danmu-service",
