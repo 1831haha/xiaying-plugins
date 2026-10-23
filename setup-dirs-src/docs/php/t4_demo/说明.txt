@@ -1,0 +1,1 @@
+这里放 T4 PHP 站点源：站点 .php 文件放本目录根目录。DZ 源另需在本目录的 lib/ 下再放 spider.php 与 HtmlParser.php 各一份，根目录那份不动。

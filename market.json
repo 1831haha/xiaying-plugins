@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-22T21:17:37Z",
+  "updatedAt": "2026-10-23T11:30:00Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -239,6 +239,31 @@
       ],
       "category": "env",
       "minApp": "0.120.0",
+      "abis": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "id": "setup-dirs",
+      "name": "一键配置：建好目录和说明",
+      "author": "侠影",
+      "desc": "装完即在文件管理器建好全部目录并写入说明文档，已有文件不覆盖；卸载不删已建好的目录和说明",
+      "version": "1.0.0",
+      "type": "setup",
+      "size": 6617,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/setup-dirs-1.0.0.zip",
+      "icon": "icons/market.png",
+      "tags": [
+        "配置",
+        "目录"
+      ],
+      "changelog": "v1.0.0：首版。建 16 个目录（js/py/py/book/php/php/t4_demo/php/t4_demo/lib/web/jar/live/plugins/service/backup/log/crash/Download/Screenshots），根目录和每个目录各一份说明文档，文档只在插件包里、不进安装包；已有文件不覆盖，卸载不删目录和说明。",
+      "md5": "6568a630b9415bffaad1c13bf0a4888f",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.185.0",
       "abis": [
         "arm64-v8a"
       ]
