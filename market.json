@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-24T01:38:38Z",
+  "updatedAt": "2026-10-24T10:05:26Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -267,6 +267,31 @@
       "abis": [
         "arm64-v8a"
       ]
+    },
+    {
+      "id": "yt-dlp-generic",
+      "name": "yt-dlp 通用解析包",
+      "author": "侠影",
+      "desc": "无规则视频页的通用解析兜底：yt-dlp 通用提取器。需在解析设置里添加 yt-dlp 通用线路后才生效；油管/推特/IG/Twitch 等站点地址会被 wrapper 拦截，不交给 yt-dlp。",
+      "version": "1.0.0",
+      "type": "env",
+      "size": 3204380,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/yt-dlp-generic-1.0.0.zip",
+      "tags": [
+        "依赖",
+        "解析"
+      ],
+      "changelog": "v1.0.0：首版。yt-dlp 2026.10.21 全量包 + 通用解析 wrapper（域名黑名单拦截油管/推特/IG/Twitch 等站点）。",
+      "md5": "5a669112381d06f8906892aff8374249",
+      "platforms": [
+        "android"
+      ],
+      "category": "env",
+      "minApp": "0.203.0",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "engine": "py"
     }
   ]
 }
