@@ -166,19 +166,19 @@
       "id": "cctv-live",
       "name": "央视卫视直播",
       "author": "侠影",
-      "desc": "CCTV 17 路 + 地方卫视 25 路，央视/部分卫视新增 112 备用源",
-      "version": "1.0.6",
+      "desc": "CCTV 17 路 + 地方卫视 25 路，新增 63 路备用线，CCTV17/东方卫视恢复可播",
+      "version": "1.0.7",
       "type": "live",
-      "size": 16495,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.6.json",
+      "size": 24590,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.7.json",
       "icon": "icons/market.png",
       "tags": [
         "直播",
         "央视",
         "卫视"
       ],
-      "changelog": "v1.0.6：183 主机全挂（26 路 10 秒连不上），双源台默认改走 112（源1=112、源2=183）；CCTV17、东方卫视只有 183 源，暂无可换源，等 183 恢复。",
-      "md5": "38c3af2f59154a93cbae56ad2adab102",
+      "changelog": "v1.0.7：新增 50 路实测可播的备用线（63 主机覆盖 18 台、bfgd 直出 5 台等），28 个频道恢复多线兜底；CCTV17、东方卫视恢复可播；有新线的地方去掉已死的 183（东南/江西/海南暂留 183 作末线）。另并入 CCSH 订阅实测可播的 13 路（其移动主线在我这边探不通，未并入）。",
+      "md5": "595ee2fe064eae0eec7176cd0b986407",
       "platforms": [
         "android",
         "win32"
@@ -188,7 +188,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "updatedAt": "2026-10-24T21:35:12+08:00"
+      "updatedAt": "2026-10-24T22:52:53+08:00"
     },
     {
       "id": "php",

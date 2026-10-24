@@ -72,5 +72,5 @@
 | BTSOW 磁力搜索 | `btsow-source` | 1.0.2 | source | `btsow-source-1.0.2.zip` |
 | BTSOW 磁力搜索（海报版） | `btsow-source-poster` | 1.0.0 | source | `btsow-source-poster-1.0.0.zip` |
 | libmpv 播放器引擎 | `mpv-player` | 1.0.0 | player | `mpv-player-1.0.0.zip` |
-| 央视卫视直播 | `cctv-live` | 1.0.6 | live | `cctv-live-1.0.6.json` |
+| 央视卫视直播 | `cctv-live` | 1.0.7 | live | `cctv-live-1.0.7.json` |
 | 一键配置：建好目录和说明 | `setup-dirs` | 1.0.0 | setup | `setup-dirs-1.0.0.zip` |
