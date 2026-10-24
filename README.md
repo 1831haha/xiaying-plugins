@@ -58,7 +58,7 @@
 
 | 条目 | id | 版本 | type | 包 |
 |---|---|---|---|---|
-| 磁力转播服务 | `magnet-stream` | 1.0.5 | server | `magnet-stream-1.0.5.zip` |
+| 磁力转播服务 | `magnet-stream` | 1.0.6 | server | `magnet-stream-1.0.6.zip` |
 | 示例服务 | `hello-service` | 1.1.0 | server | `hello-service-1.1.0.zip` |
 | PY 引擎依赖包 | `py-deps` | 1.0.0 | env | `py-deps-1.0.0.zip` |
 | PHP 运行时 | `php` | 8.3.36 | runtime | `php-8.3.36-dynamic.zip` |
