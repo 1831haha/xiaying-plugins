@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-24T10:05:26Z",
+  "updatedAt": "2026-10-24T13:35:12Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -167,18 +167,18 @@
       "name": "央视卫视直播",
       "author": "侠影",
       "desc": "CCTV 17 路 + 地方卫视 25 路，央视/部分卫视新增 112 备用源",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "type": "live",
-      "size": 16494,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.5.json",
+      "size": 16495,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cctv-live-1.0.6.json",
       "icon": "icons/market.png",
       "tags": [
         "直播",
         "央视",
         "卫视"
       ],
-      "changelog": "v1.0.5：新增 112 备用源 24 路（央视 16 路+卫视 8 路，同名源2；CCTV17、东方卫视在 112 上 404 未加）。原 183 源保留为源1。",
-      "md5": "5a1ea49add0322d7597eb2b9caa343a5",
+      "changelog": "v1.0.6：183 主机全挂（26 路 10 秒连不上），双源台默认改走 112（源1=112、源2=183）；CCTV17、东方卫视只有 183 源，暂无可换源，等 183 恢复。",
+      "md5": "38c3af2f59154a93cbae56ad2adab102",
       "platforms": [
         "android",
         "win32"
@@ -188,7 +188,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "updatedAt": "2026-10-18T15:30:00+08:00"
+      "updatedAt": "2026-10-24T21:35:12+08:00"
     },
     {
       "id": "php",
