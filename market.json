@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-31T06:26:16Z",
+  "updatedAt": "2026-10-31T07:24:13Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -429,118 +429,6 @@
       "updatedAt": "2026-10-31T06:08:22Z"
     },
     {
-      "id": "bili-hot",
-      "name": "B站热门·排行榜",
-      "author": "侠影",
-      "desc": "B站公开热门、每周必看、全站及分区排行榜（动画/游戏/知识/科技/音乐/美食/动物圈/鬼畜），支持搜索、多P，直接播放 480P",
-      "version": "1.0.0",
-      "type": "source",
-      "engine": "py",
-      "size": 7688,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/bili-hot-1.0.0.zip",
-      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/bili-hot.png",
-      "tags": [
-        "B站",
-        "热门",
-        "排行"
-      ],
-      "changelog": "v1.0.0：首版。热门/每周必看/排行 11 个分类、搜索、详情多P、播放（html5 mp4 带 Referer）本机逐项实测通过。",
-      "md5": "50e3b71494c37e6fb780dba9aae18db2",
-      "platforms": [
-        "android"
-      ],
-      "category": "app",
-      "minApp": "0.22.0",
-      "abis": [
-        "arm64-v8a"
-      ],
-      "updatedAt": "2026-10-31T06:20:08Z"
-    },
-    {
-      "id": "today-pick",
-      "name": "今天看什么·随机抽片",
-      "author": "侠影",
-      "desc": "选择困难？每次刷新随机抽一批 Internet Archive 公有领域老电影、复古动画、科幻恐怖、默片与怀旧电视，详情附一句「每日一句」",
-      "version": "1.0.0",
-      "type": "source",
-      "engine": "py",
-      "size": 6109,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/today-pick-1.0.0.zip",
-      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/today-pick.png",
-      "tags": [
-        "随机",
-        "老电影",
-        "公有领域"
-      ],
-      "changelog": "v1.0.0：首版。6 个分类每次随机翻页（经典老电影/复古动画/科幻恐怖/默片/怀旧电视/随机惊喜），优先小体积 mp4，搜索/详情/播放本机实测通过。",
-      "md5": "1bd7894a0ba17def74ebe59d37d46264",
-      "platforms": [
-        "android"
-      ],
-      "category": "app",
-      "minApp": "0.22.0",
-      "abis": [
-        "arm64-v8a"
-      ],
-      "updatedAt": "2026-10-31T06:20:08Z"
-    },
-    {
-      "id": "nasa-space",
-      "name": "NASA 太空影像",
-      "author": "侠影",
-      "desc": "NASA 官方公开视频库：火星、月球、黑洞、空间站、火箭发射、韦布/哈勃望远镜……分主题随机推荐，可搜索，多清晰度直连播放",
-      "version": "1.0.0",
-      "type": "source",
-      "engine": "py",
-      "size": 5322,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/nasa-space-1.0.0.zip",
-      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/nasa-space.png",
-      "tags": [
-        "太空",
-        "科普",
-        "NASA"
-      ],
-      "changelog": "v1.0.0：首版。10 个主题分类随机推荐、搜索、详情（流畅/标清/原画多清晰度）、播放 mp4 本机实测通过。",
-      "md5": "a97b9797fe0694806d80d87fe579935a",
-      "platforms": [
-        "android"
-      ],
-      "category": "app",
-      "minApp": "0.22.0",
-      "abis": [
-        "arm64-v8a"
-      ],
-      "updatedAt": "2026-10-31T06:20:08Z"
-    },
-    {
-      "id": "hitokoto-radio",
-      "name": "每日一句·边听边看",
-      "author": "侠影",
-      "desc": "每张卡片是一句随机的话（动画/漫画/游戏/文学/影视/诗词/网易云/哲学），刷新就换；点开读出处，播放一路 Lo-Fi/白噪音/助眠电台",
-      "version": "1.0.0",
-      "type": "source",
-      "engine": "py",
-      "size": 5234,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/hitokoto-radio-1.0.0.zip",
-      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/hitokoto-radio.png",
-      "tags": [
-        "一言",
-        "每日一句",
-        "电台"
-      ],
-      "changelog": "v1.0.0：首版。句库取 hitokoto 官方句子包（jsDelivr/GitHub 双线，整包缓存后本地随机，不受一言接口限流）；9 个分类与 5 路电台本机实测可用。",
-      "md5": "c08579e220c55e88410fc74867c93a77",
-      "platforms": [
-        "android"
-      ],
-      "category": "app",
-      "minApp": "0.22.0",
-      "abis": [
-        "arm64-v8a"
-      ],
-      "updatedAt": "2026-10-31T06:20:08Z"
-    },
-    {
       "id": "sub-iptv-org-zh",
       "name": "源广场：iptv-org 华语直播",
       "author": "侠影",
@@ -608,32 +496,6 @@
       ],
       "changelog": "v1.0.0：首版。来源：vbskycn/iptv（433 路）、Guovin/iptv-api 自动测速输出（1600+ 路）、fanmingming/live IPv6（82 路）均可解析；海外机房抽样可连约 3~11/20，以大陆网络为准，来源为公开网络流、版权归各电视台。",
       "md5": "bccfdb36fe1d3fed97f48bdf6512851d",
-      "platforms": [
-        "android"
-      ],
-      "category": "app",
-      "minApp": "0.294.20",
-      "abis": [
-        "arm64-v8a"
-      ],
-      "updatedAt": "2026-10-31T06:26:16Z"
-    },
-    {
-      "id": "sub-xiaying-legal",
-      "name": "源广场：侠影精选点播接口",
-      "author": "侠影",
-      "desc": "一键订阅侠影精选 TVBox 接口：B站热门排行榜、今天看什么随机抽片、NASA 太空影像、每日一句，全部是合法公开内容，后续新站点自动跟着订阅更新",
-      "version": "1.0.0",
-      "type": "subscribe",
-      "size": 253,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/sub-xiaying-legal-1.0.0.json",
-      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/sub-xiaying-legal.png",
-      "tags": [
-        "源广场",
-        "订阅"
-      ],
-      "changelog": "v1.0.0：首版。来源：标准 TVBox 接口 JSON（type 3 PY 站点），4 个 PY 规则本机逐项实测 首页/分类/详情/搜索/播放 通过。",
-      "md5": "737056b2db9c82f16e087f9c1340a4df",
       "platforms": [
         "android"
       ],

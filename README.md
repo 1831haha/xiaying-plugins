@@ -79,11 +79,6 @@
 | 音乐 MV 台 | `music-mv-live` | 1.0.0 | live | `music-mv-live-1.0.0.json` |
 | 白噪音·助眠电台 | `relax-radio` | 1.0.0 | live | `relax-radio-1.0.0.json` |
 | 华语广播电台 | `cn-radio` | 1.0.0 | live | `cn-radio-1.0.0.json` |
-| B站热门·排行榜 | `bili-hot` | 1.0.0 | source | `bili-hot-1.0.0.zip` |
-| 今天看什么·随机抽片 | `today-pick` | 1.0.0 | source | `today-pick-1.0.0.zip` |
-| NASA 太空影像 | `nasa-space` | 1.0.0 | source | `nasa-space-1.0.0.zip` |
-| 每日一句·边听边看 | `hitokoto-radio` | 1.0.0 | source | `hitokoto-radio-1.0.0.zip` |
 | 源广场：iptv-org 华语直播 | `sub-iptv-org-zh` | 1.0.0 | subscribe | `sub-iptv-org-zh-1.0.0.json` |
 | 源广场：iptv-org 全球新闻·纪录片 | `sub-iptv-org-world` | 1.0.0 | subscribe | `sub-iptv-org-world-1.0.0.json` |
 | 源广场：国内自动测速直播源 | `sub-cn-autotest` | 1.0.0 | subscribe | `sub-cn-autotest-1.0.0.json` |
-| 源广场：侠影精选点播接口 | `sub-xiaying-legal` | 1.0.0 | subscribe | `sub-xiaying-legal-1.0.0.json` |
