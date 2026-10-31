@@ -1,0 +1,50 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "sites": [
+    {
+      "key": "xy_bili",
+      "name": "B站热门·排行榜",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/tvbox/py/bili_hot_spider.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "xy_pick",
+      "name": "今天看什么·随机抽片",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/tvbox/py/archive_pick_spider.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "xy_nasa",
+      "name": "NASA 太空影像",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/tvbox/py/nasa_space_spider.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "xy_quote",
+      "name": "每日一句·边听边看",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/tvbox/py/hitokoto_radio_spider.py",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name": "iptv-org 中文",
+      "type": 0,
+      "url": "https://iptv-org.github.io/iptv/languages/zho.m3u"
+    }
+  ],
+  "parses": []
+}

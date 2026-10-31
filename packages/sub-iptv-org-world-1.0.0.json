@@ -1,0 +1,16 @@
+{
+  "live": [
+    {
+      "name": "iptv-org 新闻",
+      "url": "https://iptv-org.github.io/iptv/categories/news.m3u"
+    },
+    {
+      "name": "iptv-org 纪录片",
+      "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u"
+    },
+    {
+      "name": "Free-TV 全球免费台",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+    }
+  ]
+}

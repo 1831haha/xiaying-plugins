@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-31T06:20:08Z",
+  "updatedAt": "2026-10-31T06:26:16Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -539,6 +539,110 @@
         "arm64-v8a"
       ],
       "updatedAt": "2026-10-31T06:20:08Z"
+    },
+    {
+      "id": "sub-iptv-org-zh",
+      "name": "源广场：iptv-org 华语直播",
+      "author": "侠影",
+      "desc": "一键订阅 GitHub 最大的公开直播源项目 iptv-org（每日自动更新）：华语、中国、台湾、香港四个列表，共约 400 路",
+      "version": "1.0.0",
+      "type": "subscribe",
+      "size": 459,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/sub-iptv-org-zh-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/sub-iptv-org-zh.png",
+      "tags": [
+        "源广场",
+        "订阅"
+      ],
+      "changelog": "v1.0.0：首版。来源：iptv-org/iptv（GitHub 10 万+星，只收公开可访问的频道），4 个 M3U 均可解析，抽样 20 路中 6~12 路在海外机房可连（大陆网络下大陆台通常更好）。",
+      "md5": "f3d8c6fb1e55ce0c99ddabbc3234fc51",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.294.20",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:26:16Z"
+    },
+    {
+      "id": "sub-iptv-org-world",
+      "name": "源广场：iptv-org 全球新闻·纪录片",
+      "author": "侠影",
+      "desc": "一键订阅全球公开新闻台、纪录片台（iptv-org 分类）与 Free-TV 项目（只收各国官方免费播出的频道），约 3300 路",
+      "version": "1.0.0",
+      "type": "subscribe",
+      "size": 391,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/sub-iptv-org-world-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/sub-iptv-org-world.png",
+      "tags": [
+        "源广场",
+        "订阅"
+      ],
+      "changelog": "v1.0.0：首版。来源：iptv-org 新闻/纪录片分类 + Free-TV/IPTV（只收免费到户频道），3 个列表均可解析，抽样 20 路中 11~14 路可连。",
+      "md5": "519d8453342d4c53d07251fb80c1d301",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.294.20",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:26:16Z"
+    },
+    {
+      "id": "sub-cn-autotest",
+      "name": "源广场：国内自动测速直播源",
+      "author": "侠影",
+      "desc": "订阅三个社区维护、定时测速更新的国内电视直播源：vbskycn、Guovin iptv-api、范明明 IPv6 源（IPv6 需宽带支持），央视卫视地方台为主",
+      "version": "1.0.0",
+      "type": "subscribe",
+      "size": 391,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/sub-cn-autotest-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/sub-cn-autotest.png",
+      "tags": [
+        "源广场",
+        "订阅"
+      ],
+      "changelog": "v1.0.0：首版。来源：vbskycn/iptv（433 路）、Guovin/iptv-api 自动测速输出（1600+ 路）、fanmingming/live IPv6（82 路）均可解析；海外机房抽样可连约 3~11/20，以大陆网络为准，来源为公开网络流、版权归各电视台。",
+      "md5": "bccfdb36fe1d3fed97f48bdf6512851d",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.294.20",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:26:16Z"
+    },
+    {
+      "id": "sub-xiaying-legal",
+      "name": "源广场：侠影精选点播接口",
+      "author": "侠影",
+      "desc": "一键订阅侠影精选 TVBox 接口：B站热门排行榜、今天看什么随机抽片、NASA 太空影像、每日一句，全部是合法公开内容，后续新站点自动跟着订阅更新",
+      "version": "1.0.0",
+      "type": "subscribe",
+      "size": 253,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/sub-xiaying-legal-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/sub-xiaying-legal.png",
+      "tags": [
+        "源广场",
+        "订阅"
+      ],
+      "changelog": "v1.0.0：首版。来源：标准 TVBox 接口 JSON（type 3 PY 站点），4 个 PY 规则本机逐项实测 首页/分类/详情/搜索/播放 通过。",
+      "md5": "737056b2db9c82f16e087f9c1340a4df",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.294.20",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:26:16Z"
     }
   ]
 }

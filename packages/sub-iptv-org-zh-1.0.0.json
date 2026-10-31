@@ -1,0 +1,20 @@
+{
+  "live": [
+    {
+      "name": "iptv-org 华语",
+      "url": "https://iptv-org.github.io/iptv/languages/zho.m3u"
+    },
+    {
+      "name": "iptv-org 中国",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"
+    },
+    {
+      "name": "iptv-org 台湾",
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u"
+    },
+    {
+      "name": "iptv-org 香港",
+      "url": "https://iptv-org.github.io/iptv/countries/hk.m3u"
+    }
+  ]
+}
