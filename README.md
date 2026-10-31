@@ -74,3 +74,8 @@
 | libmpv 播放器引擎 | `mpv-player` | 1.0.0 | player | `mpv-player-1.0.0.zip` |
 | 央视卫视直播 | `cctv-live` | 1.0.7 | live | `cctv-live-1.0.7.json` |
 | 一键配置：建好目录和说明 | `setup-dirs` | 1.0.0 | setup | `setup-dirs-1.0.0.zip` |
+| 动画少儿频道 | `anime-live` | 1.0.0 | live | `anime-live-1.0.0.json` |
+| 世界风光直播 | `world-travel-live` | 1.0.0 | live | `world-travel-live-1.0.0.json` |
+| 音乐 MV 台 | `music-mv-live` | 1.0.0 | live | `music-mv-live-1.0.0.json` |
+| 白噪音·助眠电台 | `relax-radio` | 1.0.0 | live | `relax-radio-1.0.0.json` |
+| 华语广播电台 | `cn-radio` | 1.0.0 | live | `cn-radio-1.0.0.json` |

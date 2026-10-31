@@ -1,0 +1,644 @@
+{
+ "lives": [
+  {
+   "name": "3ABN Praise Him Music Network",
+   "url": "https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8",
+   "logo": "https://i.imgur.com/iBcqT8L.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "4Kurd",
+   "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+   "logo": "https://www.aparatchi.com/images/chanells-logo/4kurd.svg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "4 Music",
+   "url": "https://musichls.persiana.live/hls/stream.m3u8",
+   "logo": "",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "7 RadioVisione (720p)",
+   "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8",
+   "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "7S Music (576p)",
+   "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
+   "logo": "https://i.imgur.com/zDiIhdN.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "9X Jalwa (1080p)",
+   "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8",
+   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "9X Jhakaas (1080p)",
+   "url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
+   "logo": "https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "9X Tashan (1080p)",
+   "url": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
+   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "13 Festival (1080p)",
+   "url": "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8",
+   "logo": "https://i.imgur.com/Ymk6j5o.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "30A Music (720p)",
+   "url": "https://30a-tv.com/music.m3u8",
+   "logo": "https://i.imgur.com/gNWg9tl.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "70-80 TV",
+   "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8",
+   "logo": "https://i.imgur.com/y4kNV3Q.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "98.1 Pearl FM (720p)",
+   "url": "https://live2.tensila.com/pearl-v-1.pearlfm/hls/live/mystream.m3u8",
+   "logo": "https://i.imgur.com/GY750xh.jpg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "360TuneBox (1080p)",
+   "url": "https://dash3.antik.sk/live/test_360_tunebox_medium_atk/playlist.m3u8",
+   "logo": "https://i.imgur.com/1Fyezng.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Aaryaa TV (1080p)",
+   "url": "https://stream.ottlive.co.in/aryatvtamil/index.m3u8",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Abdulmajeed Abdullah (1080p)",
+   "url": "https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8",
+   "logo": "https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "ACE Country Radio KPVM-LD",
+   "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
+   "logo": "https://i.imgur.com/iPtuku6.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Activa TV (720p)",
+   "url": "https://streamtv.mediasector.es/hls/activatv/index.m3u8",
+   "logo": "https://i.imgur.com/VCUZKiw.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Adria Music Television",
+   "url": "https://adriaapp.b-cdn.net/1080p/index.m3u8",
+   "logo": "https://i.imgur.com/QoDpnKg.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "AFN TV",
+   "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8",
+   "logo": "https://i.imgur.com/LctanF8.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Afrobeat TV Entertainment (1080p)",
+   "url": "https://stream.ecable.tv/afrobeats/index.m3u8",
+   "logo": "https://i.imgur.com/232ndRK.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Aghani Aghani TV (1080p)",
+   "url": "https://cdn.streamlane.tv/hls/aghanitv/index.m3u8",
+   "logo": "https://i.imgur.com/o6HSfNg.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "AlbKanale Music TV HD (1080p)",
+   "url": "https://albportal.net/albkanalemusic.m3u8",
+   "logo": "https://i.imgur.com/JdKxscs.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Andy Haryana (576p)",
+   "url": "https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8",
+   "logo": "https://i.imgur.com/rmCBD3e.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Antenne Kaernten (720p)",
+   "url": "https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8",
+   "logo": "https://i.imgur.com/nUKFDsb.jpeg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Antenne Steiermark (720p)",
+   "url": "https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8",
+   "logo": "https://i.imgur.com/qnappvd.jpeg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Atomic Academy TV (480p)",
+   "url": "https://atomic.streamnet.ro/academia.m3u8",
+   "logo": "https://i.imgur.com/ZbrDIbZ.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Atomic TV (360p)",
+   "url": "https://atomic.streamnet.ro/atomictv.m3u8",
+   "logo": "https://i.imgur.com/O4uI0Uy.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Audiokiss (1080p)",
+   "url": "https://master.tucableip.com/audiokisstv/index.m3u8",
+   "logo": "https://www.audiokiss.com/audiokiss/wp-content/uploads/sites/4/2021/02/Audio_kiss800-768x405.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Avang TV (1080p)",
+   "url": "https://hls.avang.live/hls/stream.m3u8",
+   "logo": "https://i.imgur.com/3I1n7fO.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Azahares Radiovisual Multimedia (720p)",
+   "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
+   "logo": "https://i.imgur.com/g1BFoSs.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "B4U Music (1080p)",
+   "url": "https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8",
+   "logo": "https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Balle Balle (1080p)",
+   "url": "https://mcncdndigital.com/worldpunjabitv/index.m3u8",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Balle_Balle_TV.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Balle Balle HD (720p)",
+   "url": "https://mcncdndigital.com/balleballetv/index.m3u8",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Balle_Balle_TV.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "BEATTV (1080p)",
+   "url": "https://tv.beatfm.nl/live.m3u8",
+   "logo": "https://i.imgur.com/egK33Dj.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Best of Dance TV (1080p)",
+   "url": "https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8",
+   "logo": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dt-logo-ARVwXaV7R0NW1kmXYBxN0OA78sD706.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Bibel TV Musik (720p)",
+   "url": "https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8",
+   "logo": "https://i.imgur.com/yIqOcP5.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Boogle Bollywood (720p)",
+   "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Boogle_Bollywood.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Botflix Radioo (1080p)",
+   "url": "https://hls.botflix.tv/radioo/index.m3u8",
+   "logo": "https://botflix.tv/assets/img/botflix-mark.90c6a6f9a4.webp",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "BTA TV (720p)",
+   "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8",
+   "logo": "https://i.imgur.com/vygOosC.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Buenisima Radio TV",
+   "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+   "logo": "https://i.imgur.com/URKDlOZ.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "California Music Channel (1080p)",
+   "url": "https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8",
+   "logo": "https://i.imgur.com/FyNot5W.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Canal 3 KMK TV (720p)",
+   "url": "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8",
+   "logo": "https://i.imgur.com/sgRDRBK.jpg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Chamame TV",
+   "url": "https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8",
+   "logo": "https://i.imgur.com/JigzJck.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "CKNO-FM (616p)",
+   "url": "https://videostream.jpbgdigital.com/NOWTV.m3u8",
+   "logo": "https://i.imgur.com/sF2g7KE.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Classica (720p)",
+   "url": "https://jmp2.uk/plu-5f779951372da90007fd45e8.m3u8",
+   "logo": "https://i.imgur.com/bLjmQTU.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Clubbing TV UK (720p)",
+   "url": "https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8",
+   "logo": "https://i.imgur.com/MyiA92q.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "CMC-USA Country Music Channel (720p)",
+   "url": "https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8",
+   "logo": "https://i.imgur.com/QsANRSu.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "CMT Equal Play (720p)",
+   "url": "https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8",
+   "logo": "https://i.imgur.com/9ysjkkL.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Company TV (720p)",
+   "url": "https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8",
+   "logo": "https://i.imgur.com/ccdwsWj.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Concert Channel (720p)",
+   "url": "https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8",
+   "logo": "https://i.imgur.com/u2irADf.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Cool FM 98.9 (720p)",
+   "url": "https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8",
+   "logo": "https://i.imgur.com/uGE6lZ2.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Corazon TV",
+   "url": "https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8",
+   "logo": "https://i.imgur.com/HVdbXku.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Cumbia Mix (720p)",
+   "url": "https://cloud.tvomix.com/CUMBIAMIX/index.m3u8",
+   "logo": "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Dance Television (1080p)",
+   "url": "https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8",
+   "logo": "https://pbs.twimg.com/profile_images/1268129322730127364/OJlQBZpS_400x400.jpg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "DanceTV Deep House District (1080p)",
+   "url": "https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8",
+   "logo": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dhd-logo-GjMR8ITxgPd9PDBLDf0I87dajJTZnb.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "DASDING 90.8 (720p)",
+   "url": "https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8",
+   "logo": "https://i.imgur.com/BmklHs8.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "DBM TV (1080p)",
+   "url": "https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8",
+   "logo": "https://i.imgur.com/ab6p2SW.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Deewana HD (540p)",
+   "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8",
+   "logo": "https://i.imgur.com/xIYITQ9.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Deluxe Dance (1080p)",
+   "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
+   "logo": "https://i.imgur.com/Qu7t15Y.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Deluxe Lounge (720p)",
+   "url": "https://jmp2.uk/stvp-CHAJ0500413A",
+   "logo": "https://i.imgur.com/pgCA35z.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Deluxe Music (720p)",
+   "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
+   "logo": "https://i.imgur.com/HimuPPb.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Deluxe Rap (1080p)",
+   "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
+   "logo": "https://i.imgur.com/s3h67hx.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "DG:Radio (1080p)",
+   "url": "https://mdn.dg.church/683c0cb036885-1/index.m3u8",
+   "logo": "https://cdn.dg.church/media/objects/tile-dgradio.jpg",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Dhool TV (576p)",
+   "url": "https://d1msejlow1t3l4.cloudfront.net/fta/subhartitv/playlist.m3u8",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/DhoolTV.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Dhoom Music (720p)",
+   "url": "https://cdn.pishow.tv/ott/live/1456/master.m3u8",
+   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DHOOM_MUSIC/images/LOGO_HD/image.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Dismar Radio TV (720p)",
+   "url": "https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8",
+   "logo": "https://i.imgur.com/KOuxdMD.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Dream Turk (720p)",
+   "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+   "logo": "https://i.imgur.com/vJ8VaZi.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "EBS Musika (720p)",
+   "url": "https://rpn.bozztv.com/ebstv/ebsmusika/index.m3u8",
+   "logo": "https://i.imgur.com/lSpplhD.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "El Radio 9090 FM (480p)",
+   "url": "https://9090video.mobtada.com/hls/stream.m3u8",
+   "logo": "https://www.9090.fm/images/logo.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "EMI TV (576i)",
+   "url": "https://hls01ns.antenaplay.ro/hls/emi-tv-sd/index.m3u8",
+   "logo": "https://i.imgur.com/B5zssCz.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Epic Music (576p)",
+   "url": "https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8",
+   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Epic Music Digital (1080p)",
+   "url": "https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8",
+   "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "ETV Beats (1080p)",
+   "url": "https://jmp2.uk/stvp-IN4900002RV",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/ETVBeats1.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Fairuz (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8",
+   "logo": "https://shahid.mbc.net/mediaObject/f809d51c-e83d-43c9-8236-78731c2216ad?type=png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Falastini TV (1080p)",
+   "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
+   "logo": "https://i.imgur.com/6B3Cims.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "FM ITALIA (1080p)",
+   "url": "https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8",
+   "logo": "https://i.imgur.com/54CO2u9.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "FM Mundo (1080p)",
+   "url": "https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8",
+   "logo": "https://i.imgur.com/1nNnYQO.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Folx Music Television",
+   "url": "https://folxapp.b-cdn.net/1080p/index.m3u8",
+   "logo": "https://i.imgur.com/ze04puX.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Folx Slovenija",
+   "url": "https://folxsloapp.b-cdn.net/1080p/index.m3u8",
+   "logo": "https://i.imgur.com/RK1IASU.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "FON Music (576p)",
+   "url": "https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8",
+   "logo": "https://i.imgur.com/tXABQDE.png",
+   "group": "音乐MV台",
+   "ua": "",
+   "epg": ""
+  }
+ ]
+}

@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-24T13:35:12Z",
+  "updatedAt": "2026-10-31T06:08:22Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -292,6 +292,141 @@
         "arm64-v8a"
       ],
       "engine": "py"
+    },
+    {
+      "id": "anime-live",
+      "name": "动画少儿频道",
+      "author": "侠影",
+      "desc": "全球动画/少儿电视台直播，iptv-org 公开源，开箱即看卡通（80 路，全部实测可连）",
+      "version": "1.0.0",
+      "type": "live",
+      "size": 20523,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/anime-live-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/anime-live.png",
+      "tags": [
+        "直播",
+        "动画",
+        "少儿"
+      ],
+      "changelog": "v1.0.0：首版。80 路 https 源，上架前逐条探测 HTTP 200 且返回有效 m3u8/音频流；只收公开合法源。",
+      "md5": "8dcf7cb86980f1f0005c05892c4a4cd4",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.79.0",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:08:22Z"
+    },
+    {
+      "id": "world-travel-live",
+      "name": "世界风光直播",
+      "author": "侠影",
+      "desc": "旅行、户外探险、自然风光频道直播，足不出户逛世界（60 路，全部实测可连）",
+      "version": "1.0.0",
+      "type": "live",
+      "size": 14749,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/world-travel-live-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/world-travel-live.png",
+      "tags": [
+        "直播",
+        "旅行",
+        "风光"
+      ],
+      "changelog": "v1.0.0：首版。60 路 https 源，上架前逐条探测 HTTP 200 且返回有效 m3u8/音频流；只收公开合法源。",
+      "md5": "9663e8ac62564287ddb77cce7980310d",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.79.0",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:08:22Z"
+    },
+    {
+      "id": "music-mv-live",
+      "name": "音乐 MV 台",
+      "author": "侠影",
+      "desc": "全球音乐电视台直播：流行、摇滚、电音、K-Pop MV 不停播（80 路，全部实测可连）",
+      "version": "1.0.0",
+      "type": "live",
+      "size": 18755,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/music-mv-live-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/music-mv-live.png",
+      "tags": [
+        "直播",
+        "音乐",
+        "MV"
+      ],
+      "changelog": "v1.0.0：首版。80 路 https 源，上架前逐条探测 HTTP 200 且返回有效 m3u8/音频流；只收公开合法源。",
+      "md5": "a670986a131ce68eaf52a731f512cf83",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.79.0",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:08:22Z"
+    },
+    {
+      "id": "relax-radio",
+      "name": "白噪音·助眠电台",
+      "author": "侠影",
+      "desc": "氛围音乐、Lo-Fi 学习、自然白噪音、冥想与助眠电台，学习/睡前开着听（80 路，全部实测可连）",
+      "version": "1.0.0",
+      "type": "live",
+      "size": 18805,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/relax-radio-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/relax-radio.png",
+      "tags": [
+        "电台",
+        "白噪音",
+        "助眠"
+      ],
+      "changelog": "v1.0.0：首版。80 路 https 源，上架前逐条探测 HTTP 200 且返回有效 m3u8/音频流；只收公开合法源。",
+      "md5": "deb4f40cb04fd5f0fe39d0072b153547",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.79.0",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:08:22Z"
+    },
+    {
+      "id": "cn-radio",
+      "name": "华语广播电台",
+      "author": "侠影",
+      "desc": "两岸三地华语广播在线收听：新闻、音乐、交通、方言台（38 路，全部实测可连）",
+      "version": "1.0.0",
+      "type": "live",
+      "size": 8014,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/cn-radio-1.0.0.json",
+      "icon": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/icons/cn-radio.png",
+      "tags": [
+        "电台",
+        "广播",
+        "华语"
+      ],
+      "changelog": "v1.0.0：首版。38 路 https 源，上架前逐条探测 HTTP 200 且返回有效 m3u8/音频流；只收公开合法源。",
+      "md5": "e5f4724d5894b74a41c10af74417ec47",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.79.0",
+      "abis": [
+        "arm64-v8a"
+      ],
+      "updatedAt": "2026-10-31T06:08:22Z"
     }
   ]
 }

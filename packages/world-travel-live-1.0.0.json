@@ -1,0 +1,484 @@
+{
+ "lives": [
+  {
+   "name": "Aruba.TV (1080p)",
+   "url": "https://cdn01.setar.aw/Canal49/canal49/playlist.m3u8",
+   "logo": "https://i.imgur.com/9fWY09U.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "China Travel (1080p)",
+   "url": "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8",
+   "logo": "https://i.imgur.com/vSgY3CD.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Discover Pakistan (1080p)",
+   "url": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
+   "logo": "https://i.imgur.com/IJH47fJ.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "DroneTV (1080p)",
+   "url": "https://airvuz-dronetv-1-us.ohlscdn.wurl.tv/playlist.m3u8",
+   "logo": "https://i.ibb.co/S71C9RJC/dronetv.webp",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Fun Roads (720p)",
+   "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978",
+   "logo": "https://i.imgur.com/2Q6TENm.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Glazami Turista (576i)",
+   "url": "https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8",
+   "logo": "https://i.imgur.com/GXJKWdy.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "INTRAVEL (1080p)",
+   "url": "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8",
+   "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Journy (720p)",
+   "url": "https://d3s3a5c7f101eb.cloudfront.net/playlist.m3u8",
+   "logo": "https://i.imgur.com/1JNrLxq.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Living Asia Channel (1080p)",
+   "url": "https://cdn.vegasplus.us/vegas/lac/playlist.m3u8",
+   "logo": "https://i.imgur.com/q3UToRM.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "MyDestination.TV (720p)",
+   "url": "https://a-cdn.klowdtv.com/live2/mydestinationtv_720p/playlist.m3u8",
+   "logo": "https://i.imgur.com/VJndl0m.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "OEPM TV (720p)",
+   "url": "https://cnn.hostlagarto.com/oepmtelevision/tracks-v1a1/mono.m3u8",
+   "logo": "https://i.imgur.com/QghtwMB.jpeg",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Palm Beaches TV (720p)",
+   "url": "https://live.feed.thepalmbeaches.tv/index.m3u8",
+   "logo": "https://i.imgur.com/kBol4Pf.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Peer TV Alto Adige (1280p)",
+   "url": "https://iptv.peer.biz/live/peertv-it.m3u8",
+   "logo": "https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Peer TV South Tyrol (1280p)",
+   "url": "https://iptv.peer.biz/live/peertv-en.m3u8",
+   "logo": "https://www.peer.biz/peertv-iptv/peer-tv-south-tyrol.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Peer TV Sudtirol (1080p)",
+   "url": "https://iptv.peer.biz/live/peertv.m3u8",
+   "logo": "https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Pocono Television Network (1080p)",
+   "url": "https://dfoiz3dv1euv7.cloudfront.net/ptnlive-s3/live1.m3u8",
+   "logo": "https://i.imgur.com/et6giFo.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Schladming-Dachstein TV (720p)",
+   "url": "https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8",
+   "logo": "https://i.ibb.co/VjnzhMM/Logo-Schl-Dachstein-TV-HP-JPG.jpg",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Space Live powered by sen (1080p)",
+   "url": "https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8",
+   "logo": "https://static.frequency.com/studio/itv/channels/1224-400x200.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Travel Mix",
+   "url": "https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8",
+   "logo": "https://i.imgur.com/4dMeEQO.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Travel TV (576p)",
+   "url": "https://streamer103.neterra.tv/travel/live.m3u8",
+   "logo": "https://i.imgur.com/5xllfed.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Turismo Travel TV",
+   "url": "https://stmv3.voxtvhd.com.br/turismotraveltv/turismotraveltv/playlist.m3u8",
+   "logo": "https://i.imgur.com/4ixl8Px.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Turistik TV (720p)",
+   "url": "https://cdn1.cef-technology.com/stream_web/turistik/playlist.m3u8",
+   "logo": "https://i.imgur.com/g9j0ze8.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "TV OFF (1080p)",
+   "url": "https://edge.enhdtv.com/tvoff/index.m3u8",
+   "logo": "https://i.imgur.com/vBe1GgI.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Vinh Long TV 4 (720p)",
+   "url": "https://dethich.pw/thvl4/index.m3u8",
+   "logo": "https://i.imgur.com/ARhIkvR.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Voyages & Saveurs (720p)",
+   "url": "https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8",
+   "logo": "https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png",
+   "group": "旅行风光",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "30A Darcizzle Offshore (720p)",
+   "url": "https://30a-tv.com/darcizzle.m3u8",
+   "logo": "https://i.imgur.com/Q4l2uao.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Agricultura TV (1080p)",
+   "url": "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8",
+   "logo": "https://i.imgur.com/sxrYc3Q.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Agro TV (Bulgaria) (480p)",
+   "url": "https://restr2.bgtv.bg/agro/hls/agro.m3u8",
+   "logo": "https://i.imgur.com/tPMNDtD.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Agro TV (Peru) (720p)",
+   "url": "https://live-evg8.tv360.bitel.com.pe/bitel/agroSRT/playlist.m3u8",
+   "logo": "https://i.imgur.com/1uLGa3w.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Agrotendencia TV (1080p)",
+   "url": "https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8",
+   "logo": "https://i.imgur.com/frd60hR.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "AKC TV (1080p)",
+   "url": "https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8",
+   "logo": "https://i.imgur.com/XRTfoSp.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "AKC TV Meet the Breeds",
+   "url": "https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8",
+   "logo": "https://i.imgur.com/66avgdk.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "AKC TV Puppies",
+   "url": "https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8",
+   "logo": "https://i.imgur.com/2nzRS60.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Ciudad Magica (720p)",
+   "url": "https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8",
+   "logo": "https://i.imgur.com/HJkSz2U.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Dikij (576p)",
+   "url": "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8",
+   "logo": "https://i.imgur.com/VDXDiPC.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Duck Hunting TV (1080p)",
+   "url": "https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8",
+   "logo": "https://image.roku.com/developer_channels/prod/b2a80f0a20fc338f22a8289f23d20d19d958470ff1b8df3845c57cbc54ec1245.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "El Mundo del Campo (720p)",
+   "url": "https://movil.ejeserver.com/live/elmundodelcampo.m3u8",
+   "logo": "https://i.imgur.com/xG2apUG.jpeg",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Horse & Country TV (1080p)",
+   "url": "https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8",
+   "logo": "https://i.imgur.com/1x6zYZr.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "InTrouble (1080p)",
+   "url": "https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8",
+   "logo": "https://i.imgur.com/a40chFI.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Italian Fishing TV (1080p)",
+   "url": "https://fms.premio.link/fishingtv/playlist.m3u8",
+   "logo": "https://i.imgur.com/qrn6tUO.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Love Nature (1080p)",
+   "url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8",
+   "logo": "https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Monster Jam (720p)",
+   "url": "https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8",
+   "logo": "https://provider-static.plex.tv/epg/cms/production/23824964-562b-4498-9eaa-d6262cb7e0c3/Monster_Jam_Logo_on_Transparent_1500x1000_Casey_Murawski.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Ohotnik i rybolov (576i)",
+   "url": "https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8",
+   "logo": "https://i.imgur.com/Bj1jI7F.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Outdoor America (1080p)",
+   "url": "https://d1e354daam8g5r.cloudfront.net/playlist.m3u8",
+   "logo": "https://i.imgur.com/UKfimFD.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Outdoor Channel (1080p)",
+   "url": "https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8",
+   "logo": "https://i.imgur.com/Kh4MWaY.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Outdoor Channel Vietnam (1080p)",
+   "url": "https://freem3u.xyz/api/live/play.m3u8?vid=216",
+   "logo": "https://i.imgur.com/Kh4MWaY.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Outside TV (1080p)",
+   "url": "https://outsidetv-firetv.amagi.tv/playlist.m3u8",
+   "logo": "https://www.cynopsis.com/wp-content/uploads/2018/02/outside-tv.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Peer TV Alto Adige (1280p)",
+   "url": "https://iptv.peer.biz/live/peertv-it.m3u8",
+   "logo": "https://www.peer.biz/peertv-iptv/peer-tv-alto-adige.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Peer TV South Tyrol (1280p)",
+   "url": "https://iptv.peer.biz/live/peertv-en.m3u8",
+   "logo": "https://www.peer.biz/peertv-iptv/peer-tv-south-tyrol.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Peer TV Sudtirol (1080p)",
+   "url": "https://iptv.peer.biz/live/peertv.m3u8",
+   "logo": "https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Pluto TV Adventure",
+   "url": "https://jmp2.uk/plu-69d7ebb726eeec84158e28cb.m3u8",
+   "logo": "https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Pluto TV Adventure CA",
+   "url": "https://jmp2.uk/plu-653bdb0fbdf3cf00089cc395.m3u8",
+   "logo": "https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Pluto TV Fishing",
+   "url": "https://jmp2.uk/plu-619e1874e0d3a7000729a036.m3u8",
+   "logo": "https://images.pluto.tv/channels/619e1874e0d3a7000729a036/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Pluto TV Naturaleza",
+   "url": "https://jmp2.uk/plu-5dd85eac039bba0009e86d1d.m3u8",
+   "logo": "https://images.pluto.tv/channels/5dd85eac039bba0009e86d1d/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "PursuitUP (1080p)",
+   "url": "https://d1p1siomv3cm7b.cloudfront.net/playlist.m3u8",
+   "logo": "https://i.imgur.com/5Vzwqts.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Red Bull TV (1080p)",
+   "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8",
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Red Bull TV AU (1080p)",
+   "url": "https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8",
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Red Bull TV BR (1080p)",
+   "url": "https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8",
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Red Bull TV DE (1080p)",
+   "url": "https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8",
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Red Bull TV ES (1080p)",
+   "url": "https://886bd3fbc782459f8de7555d32d7e9ce.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-957-WORBLATAMESFAST-WHALETVPLUS/957/whaletvplus/hls/master/playlist.m3u8",
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "group": "户外探险",
+   "ua": "",
+   "epg": ""
+  }
+ ]
+}

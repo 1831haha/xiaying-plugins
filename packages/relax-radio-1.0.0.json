@@ -1,0 +1,644 @@
+{
+ "lives": [
+  {
+   "name": "Спокойное радио",
+   "url": "https://listen9.myradio24.com/6262",
+   "logo": "https://i.1.creatium.io/5f/9c/2c/4e16165627237138cbc3273f76782d56f9/196x196/favicon.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "AIRPORT LOUNGE RADIO",
+   "url": "https://az1.mediacp.eu/listen/airport-lounge-radio/radio.mp3",
+   "logo": "https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-12-16/9274e8a4803971186ff5c45359ab77a4.ico.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "KEXP",
+   "url": "https://kexp.streamguys1.com/kexp160.aac?listenerid=f4bcb5c771d830fbdd4195088a946ea6&awparams=companionAds%3Atrue",
+   "logo": "https://www.kexp.org/static/assets/img/logo-header.svg",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "NEU RADIO",
+   "url": "https://nr9.newradio.it/proxy/ebaruffa?mp=/stream",
+   "logo": "",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "NATURE RADIO SLEEP",
+   "url": "https://az1.mediacp.eu/listen/natureradiosleep/radio.mp3",
+   "logo": "https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2025-03-01/fb714c8d8238b02673a9ee2b018528af.ico.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "CAPITAL CHILL: Non-stop chilled beats",
+   "url": "https://media-ssl.musicradio.com/CapitalChill",
+   "logo": "https://cdn-profiles.tunein.com/s323115/images/logod.jpg",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Meditation -om",
+   "url": "https://streaming.positivity.radio/pr/posimeditation/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/6b82f1f4-8ac2-4d42-9908-34c40c79a257.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Café del Mar CALM",
+   "url": "https://streamer.radio.co/sb748f24ad/listen",
+   "logo": "https://cafedelmar.com/apple-touch-icon.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "100 % COVERS LOUNGE",
+   "url": "https://az1.mediacp.eu/listen/100coverslounge/radio.mp3",
+   "logo": "",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "RADIO DIMENSIONE RELAX",
+   "url": "https://az1.mediacp.eu/listen/radiodimensionerelax/radio.mp3",
+   "logo": "https://favicon-generator.org/favicon-generator/htdocs/favicons/2025-01-13/a46c8e118c24923aa862f46d62f93152.ico.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "- 0 N - Chillout on Radio",
+   "url": "https://0n-chillout.radionetz.de/0n-chillout.aac",
+   "logo": "https://www.0nradio.com/logos/0n-chillout_600x600.jpg",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Ambient Sleeping Pill",
+   "url": "https://radio.stereoscenic.com/asp-h",
+   "logo": "https://ambientsleepingpill.com/wp-content/uploads/cropped-asp-small-logo-512-trans-192x192.png",
+   "group": "氛围音乐",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "yojosuknam Radio",
+   "url": "https://stream.yojosuknam.com/live.mp3",
+   "logo": "https://music.yojosuknam.com/radio/icon-512.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Digital Malayali",
+   "url": "https://radio.digitalmalayali.in/listen/stream/radio.mp3",
+   "logo": "https://radio.digitalmalayali.in/static/uploads/album_art.1688135987.jpg",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "LITT Live - Lofi - Chill & Instrumental ",
+   "url": "https://das-sa39.cdnstream1.com/5582_128",
+   "logo": "https://dashradio-files.s3.amazonaws.com/development/icon_logos/57/logos/6b67891f-ca25-461d-868f-664944bffac0.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "ISEKOI Radio | Chill Zone",
+   "url": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
+   "logo": "https://i.postimg.cc/ncdMKNsn/LOGO-3-2-bg4.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Nightwave Plaza",
+   "url": "https://radio.plaza.one/ogg",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "I Love Music - I Love Chillhop",
+   "url": "https://ilm.stream27.radiohost.de/ilm_ilovechillhop_mp3-192?upd-meta&upd-scheme=https&_art=dD0xNzkzMTQ5MDY5JmQ9MWM4ZDYwMjYxNWJkM2I4YWU1NTY",
+   "logo": "https://www.ilovemusic.de/favicon.ico",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "NIA Radio Lo-Fi",
+   "url": "https://radio.nia.nc/radio/8020/lofi-hq-stream.aac",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "CLIAMP Lofi Hip Hop Radio",
+   "url": "https://radio.cliamp.stream/lofi/stream",
+   "logo": "https://www.cliamp.stream/favicon.svg",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "FMV FIT Radio Focus",
+   "url": "https://radio.webicdp.com/listen/fmvfitradiofocus/radio.mp3",
+   "logo": "https://fmvfitradio.webicdp.com/favicon.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Special-Radio",
+   "url": "https://special-radio.stream.laut.fm/special-radio?t302=2026-10-27_02-35-29&uuid=2eb7d01a-3533-c0cd-3a0a-2306bef7f18e",
+   "logo": "https://assets.laut.fm/a32f99500d9bc3864c7b619152c8e6e9?t=_120x120",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Osage Orange Radio",
+   "url": "https://das-edge62-live365-dal03.cdnstream.com/a08442",
+   "logo": "https://broadcaster.live365.com/static/assets/logos/default.jpg",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Wa3 (راديو وع)",
+   "url": "https://stream.wa3.live/wa3.mp3",
+   "logo": "https://wa3.live/wa3-logo-assets/wa3-icon-512.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "irvess",
+   "url": "https://irvess.com/stream/irvess",
+   "logo": "https://irvess.com/assets/img/icon-512.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio San Pancho",
+   "url": "https://listen.radioking.com/radio/680182/stream/744577",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "PAX LO-FI",
+   "url": "https://das-edge16-live365-dal02.cdnstream.com/a24494",
+   "logo": "https://image.live365.com/download/cb22e857-3ee0-49f0-90c8-3f9c3e3012f1.png/400/image.webp",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Mind Fuel Radio · Lo-fi",
+   "url": "https://141-144-200-199.nip.io/lofi.mp3",
+   "logo": "https://141-144-200-199.nip.io/radio-assets/cover.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Hunter.fm O Canal Lo-Fi (High)",
+   "url": "https://live.hunter.fm/lofi_high",
+   "logo": "https://hunter.fm/favicon.ico",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Music Radio Lo-Fi",
+   "url": "https://radio.musicradio.ai/listen/music_radio_lo-fi/radio.mp3",
+   "logo": "https://musicradio.ai/wp-content/uploads/2025/01/logo-music-radio-avec-flou.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Hamnava Records - Lofi",
+   "url": "https://radio.nimaarki.com/lofi/stream?_ic2=1",
+   "logo": "https://nimaarki.com/images/radio/hamnava-logo.png?w=400&f=original",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "kobold.FM",
+   "url": "https://kobold.messy.quest/listen/kobold.fm/radio.mp3",
+   "logo": "https://kobold.messy.quest/favicon.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Nicecream.fm BLUE",
+   "url": "https://play.nicecream.fm/blue.aac",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Il Camillofono",
+   "url": "https://radio.celodex.com/stream/camillofono.mp3",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Zocker-FM",
+   "url": "https://zockerfm.stream.laut.fm/zockerfm?t302=2026-10-28_02-55-37&uuid=47fc48bf-0706-6032-cf18-1ec23bc88a45",
+   "logo": "https://assets.laut.fm/9721c8d3b2da107f0341ce2e5c01bc9a?t=_120x120",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "RadioTEDU Lo-Fi",
+   "url": "https://stream.radiotedu.com/lofi",
+   "logo": "https://radiotedu.com/wp-content/uploads/2026/08/radiotedu-station-logos-v2/radiotedu-lo-fi.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "ISEKOI Radio | Chill Zone",
+   "url": "https://public.isekoi-radio.com/listen/chill/radio.flac",
+   "logo": "https://i.postimg.cc/ncdMKNsn/LOGO-3-2-bg4.png",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "DevRadio",
+   "url": "https://stream.radiohost.cloud/listen/devradio.co.uk/radio.mp3",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "SYNO RADIO",
+   "url": "https://radiosyno.ddns.net/radio",
+   "logo": "",
+   "group": "Lo-Fi 学习",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Ambi Nature Radio",
+   "url": "https://nature-rex.radioca.st/stream",
+   "logo": "https://cdn-radiotime-logos.tunein.com/s266086d.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "MyNoise Pure Nature",
+   "url": "https://purenature-mynoise.radioca.st/stream",
+   "logo": "https://mynoise.net/apple-touch-icon.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Mind Fuel Radio · Ambient",
+   "url": "https://141-144-200-199.nip.io/radio.mp3",
+   "logo": "https://141-144-200-199.nip.io/radio-assets/cover-ambient.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "MANARADIO",
+   "url": "https://radio.mana.bzh/listen/mana/radio.mp3",
+   "logo": "https://mana.bzh/favicon.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Naturmacher Radio",
+   "url": "https://workloom.de/radio/live.mp3",
+   "logo": "https://workloom.de/media/radio/logo512.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Relax - Nature",
+   "url": "https://radio8.dixi.md/listen/relax_ice_arena/relaxicearena128.aac",
+   "logo": "https://radiorelax.md/front-assets/favicon/apple-touch-icon.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Arty",
+   "url": "https://radio.streamings.gr/proxy/artyradio?mp=/stream",
+   "logo": "",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Australia Forest Sounds - Dereel VIC (3h",
+   "url": "https://dn721903.ca.archive.org/0/items/australian-forest-sounds/08%20Calm%20creek%20flowing%2C%20frogs%20and%20birds%20_Dereel%20VIC.mp3",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Internet_Archive_logo_and_wordmark.svg/1280px-Internet_Archive_logo_and_wordmark.svg.png",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Dreamland",
+   "url": "https://dreamsiteradiocp3.com/proxy/dreamland?mp=/stream",
+   "logo": "",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Lighthouse Christian Radio - Driftwood D",
+   "url": "https://lighthouseradio.network/proxy/driftwood/stream",
+   "logo": "https://www.lighthouse.radio/wp-content/themes/lighthouse-christian-radio/assets/images/lighthouse-logo-20261006.webp",
+   "group": "自然白噪音",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Sleep Classical -om",
+   "url": "https://streaming.positivity.radio/pr/sleepclassical/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/3176fe92-b3c4-4c03-a69b-85712502e83c.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Sleep Kids -om",
+   "url": "https://streaming.positivity.radio/pr/sleepkids/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/94d1af8b-a87c-49d3-96cd-a6727ac5eaed.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Alswin Ambient Music",
+   "url": "https://server7.radio-streams.net/proxy/jwoiiktx/stream",
+   "logo": "https://alswin.nl/favicon.ico",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Ambiland Spatial",
+   "url": "https://radio.ambiland.space/spatial.mp3?src=radio-browser",
+   "logo": "https://ambiland.space/icon-spatial-512.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Art - Baby Sleep",
+   "url": "https://air.radioart.online/fBaby_sleep.mp3",
+   "logo": "https://cdn.radioart.com/images/channels/140_baby_sleep-600x400.jpg",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Sleep Max Richter -om",
+   "url": "https://streaming.positivity.radio/pr/maxrichter/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/cea14a8d-e13f-4370-9feb-77df48b3b3cc.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Music Radio Chillout",
+   "url": "https://radio.musicradio.ai/listen/music_radio_chillout/radio.mp3",
+   "logo": "https://musicradio.ai/wp-content/uploads/2025/01/logo-music-radio-avec-flou.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "ГУСЬ-Релакс",
+   "url": "https://stream4.radiogoose.ru/listen/relax/play",
+   "logo": "https://radiogoose.ru/res/logo/relax.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Ambiland",
+   "url": "https://radio.ambiland.space/live.mp3?src=radio-browser",
+   "logo": "https://ambiland.space/icon-512.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Art - Guitar for Sleep",
+   "url": "https://air.radioart.online/fGuitar_for_sleep.mp3",
+   "logo": "https://cdn.radioart.com/images/channels/138_guitar_for_s-600x400.jpg",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Sleep Tones -om",
+   "url": "https://streaming.positivity.radio/pr/sleeptones/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/13b4a62d-6af3-4150-b1d6-7bfb768608ef.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "sonnov radio",
+   "url": "https://sonnovradio.com/listen",
+   "logo": "https://sonnovradio.com/favicon.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "psoup.art brown noise",
+   "url": "https://psoup.art/radio/focus.mp3",
+   "logo": "https://psoup.art/favicon.ico",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Sleepy -om",
+   "url": "https://streaming.positivity.radio/pr/posisleepy/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/47b15c2e-423c-4648-bb2f-7bef025e5ba4.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Andreas’ Nacht – Hörbücher zum Einschlaf",
+   "url": "https://andreasnacht.de/radio/stream",
+   "logo": "https://andreasnacht.de/assets/img/monogramm-240.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "moonquito radio",
+   "url": "https://radio.das.pub/stream.mp3",
+   "logo": "https://moonquito.de/user/themes/moonquito/img/icon-512.png",
+   "group": "助眠",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "1st Greek New Age FLAC Radio AAC+ 320kbp",
+   "url": "https://stream.newageradio.gr/listen/hq/radio.aac",
+   "logo": "https://newageradio.gr/Greek_New_Age_1200x1200.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "World Buddhist Radio",
+   "url": "https://26343.live.streamtheworld.com/SAM11AAC025.mp3",
+   "logo": "https://bdcu.org.au/sangye/wp-content/uploads/2023/12/favicon.jpg",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "1st Greek New Age FLAC Radio (FLAC strea",
+   "url": "https://stream.newageradio.gr/listen/hq/radio.flac",
+   "logo": "https://newageradio.gr/Greek_New_Age_1200x1200.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Music Radio Zen",
+   "url": "https://radio.musicradio.ai/listen/music_radio_zen/radio.mp3",
+   "logo": "https://musicradio.ai/wp-content/uploads/2025/01/logo-music-radio-avec-flou.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Mantra Radio",
+   "url": "https://whsh4u-panel.com/proxy/gsedemag?mp=/stream",
+   "logo": "",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Symphoniya Wave — Symphoniya.com",
+   "url": "https://symphoniyawave.ice.infomaniak.ch/symphoniyawave-128.mp3",
+   "logo": "https://symphoniya.com/wp-content/uploads/2026/09/symphoniya-wave-favicon-512.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Радио Монте Карло - Meditation",
+   "url": "https://mc-meditation.hostingradio.ru/meditation96.aacp",
+   "logo": "",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Mahakatha Radio",
+   "url": "https://mahakatharadio.com/api/station/live.mp3",
+   "logo": "https://mahakatharadio.com/logo/station-300.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "7 Rays Radio",
+   "url": "https://7rays.stream.laut.fm/7rays",
+   "logo": "https://7promeniv.com.ua/images/Seven_Rays_Mix/7RaysRadioLogoNew.jpg",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "RadioAgonshu",
+   "url": "https://stream10.vestaradio.com/RadioAgonshu",
+   "logo": "https://studio10.vestaradio.com/uploads/user-music/1748/covers/cover_1748_1782679287_a66968.jpg",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Healing 285Hz -om",
+   "url": "https://streaming.positivity.radio/pr/healing/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/80cbb083-a7f5-40c7-8145-6865d520d788.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "ISEKOI Radio | Non-Stop Ambient",
+   "url": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
+   "logo": "https://i.postimg.cc/3rFkNkY4/LOGO-3-2-bg3.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "New Reality Radio",
+   "url": "https://streaming.radio.co/sa23d1baa2/listen",
+   "logo": "https://newrealitytv.com/wp-content/uploads/2026/06/cropped-NRTV-Official-Logo-New-1.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Radio Love-it",
+   "url": "https://radio.ihypnosis.org.uk/stream",
+   "logo": "https://radio.ihypnosis.org.uk/static/radio-love-it-social-v1.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  },
+  {
+   "name": "Positively Vibe -om",
+   "url": "https://streaming.positivity.radio/pr/posivibe/icecast.audio",
+   "logo": "https://manager.uber.radio/static/uploads/station/276f1ff6-4ac3-4ee1-bf2e-3711de267ee1.png",
+   "group": "冥想",
+   "ua": "",
+   "epg": ""
+  }
+ ]
+}
