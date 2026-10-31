@@ -79,3 +79,7 @@
 | 音乐 MV 台 | `music-mv-live` | 1.0.0 | live | `music-mv-live-1.0.0.json` |
 | 白噪音·助眠电台 | `relax-radio` | 1.0.0 | live | `relax-radio-1.0.0.json` |
 | 华语广播电台 | `cn-radio` | 1.0.0 | live | `cn-radio-1.0.0.json` |
+| B站热门·排行榜 | `bili-hot` | 1.0.0 | source | `bili-hot-1.0.0.zip` |
+| 今天看什么·随机抽片 | `today-pick` | 1.0.0 | source | `today-pick-1.0.0.zip` |
+| NASA 太空影像 | `nasa-space` | 1.0.0 | source | `nasa-space-1.0.0.zip` |
+| 每日一句·边听边看 | `hitokoto-radio` | 1.0.0 | source | `hitokoto-radio-1.0.0.zip` |
