@@ -82,3 +82,5 @@
 | 源广场：iptv-org 华语直播 | `sub-iptv-org-zh` | 1.0.0 | subscribe | `sub-iptv-org-zh-1.0.0.json` |
 | 源广场：iptv-org 全球新闻·纪录片 | `sub-iptv-org-world` | 1.0.0 | subscribe | `sub-iptv-org-world-1.0.0.json` |
 | 源广场：国内自动测速直播源 | `sub-cn-autotest` | 1.0.0 | subscribe | `sub-cn-autotest-1.0.0.json` |
+| 磁力引擎（BT） | `magnet-engine` | 1.0.0 | player | `magnet-engine-1.0.0.zip` |
+| 迅雷引擎 | `xunlei-engine` | 1.0.0 | player | `xunlei-engine-1.0.0.zip` |

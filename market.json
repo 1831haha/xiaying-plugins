@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-10-31T07:24:13Z",
+  "updatedAt": "2026-11-01T00:44:59Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -505,6 +505,62 @@
         "arm64-v8a"
       ],
       "updatedAt": "2026-10-31T06:26:16Z"
+    },
+    {
+      "id": "magnet-engine",
+      "name": "磁力引擎（BT）",
+      "author": "侠影",
+      "desc": "侠影自建磁力 BT 引擎（libtorrent4j 2.1，arm64-v8a）。装上后可直接播放 magnet 磁力链接，边下边播；在独立进程运行，崩溃不影响主程序。需要侠影 0.294.32 及以上。",
+      "version": "1.0.0",
+      "type": "player",
+      "engine": "",
+      "size": 6180769,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/magnet-engine-1.0.0.zip",
+      "icon": "icons/magnet-engine.png",
+      "tags": [
+        "磁力",
+        "引擎",
+        "BT"
+      ],
+      "changelog": "v1.0.0：从安装包拆出的 libtorrent4j.so（含 v0.294.31 的 posix 读写、单次加入等修复，代码在 App 内）。",
+      "md5": "d2b8a13ddb87ad518d28c9eca4fb563d",
+      "sha256": "92a72b430ae47656cb3c728cfbb1640546129210b01e4f51a293cc9b5360e586",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.294.32",
+      "abis": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "id": "xunlei-engine",
+      "name": "迅雷引擎",
+      "author": "侠影",
+      "desc": "迅雷下载库（libxl_thunder_sdk / libxl_stat，arm64-v8a，来自海阔视界公开仓库）。装上后磁力先用迅雷解析与边下边播，失败自动换 BT 引擎；设置里可切换优先级。第三方闭源库，可能随时失效。需要侠影 0.294.32 及以上。",
+      "version": "1.0.0",
+      "type": "player",
+      "engine": "",
+      "size": 2390753,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/xunlei-engine-1.0.0.zip",
+      "icon": "icons/xunlei-engine.png",
+      "tags": [
+        "磁力",
+        "引擎",
+        "迅雷"
+      ],
+      "changelog": "v1.0.0：首版。参照海阔视界 thunder 模块：迅雷取种子 → 选最大视频 → 本地地址边下边播。",
+      "md5": "bba2ce0a5f469a9ff7d2313853c23fe6",
+      "sha256": "fb7cc9c0dfe81a9346bbae32eacbbc67626456977ce573ab786464ef07344f23",
+      "platforms": [
+        "android"
+      ],
+      "category": "app",
+      "minApp": "0.294.32",
+      "abis": [
+        "arm64-v8a"
+      ]
     }
   ]
 }
