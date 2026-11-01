@@ -2,7 +2,7 @@
   "logo": "icons/market.png",
   "name": "侠影官方插件市场",
   "desc": "侠影 App 内置「插件市场」的数据源（兼容 DsPlayer 市场协议）",
-  "updatedAt": "2026-11-01T00:44:59Z",
+  "updatedAt": "2026-11-01T01:15:51Z",
   "plugins": [
     {
       "id": "btsow-source",
@@ -26,33 +26,6 @@
         "win32"
       ],
       "category": "app",
-      "minApp": "0.22.0",
-      "abis": [
-        "arm64-v8a"
-      ]
-    },
-    {
-      "id": "magnet-stream",
-      "name": "磁力转播服务",
-      "author": "侠影",
-      "desc": "把磁力链接转成 HTTP 视频流，供播放器直接播放",
-      "version": "1.0.6",
-      "type": "server",
-      "engine": "nodejs",
-      "size": 9316226,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/magnet-stream-1.0.6.zip",
-      "icon": "icons/magnet-stream.png",
-      "tags": [
-        "服务",
-        "磁力"
-      ],
-      "changelog": "v1.0.6：去掉 node_modules 里全部 98 个 .ts 文件（96 个 .d.ts 类型定义 + 2 个源码 .ts，相册误认成 0 秒视频的根因；运行时只用 .js）；包内补 .nomedia；server.json 版本号同步到 1.0.6；包改用压缩，体积从 33MB 降到 9.3MB。",
-      "md5": "83f659f36b0e78d63ec0247eeeed53df",
-      "platforms": [
-        "android",
-        "win32"
-      ],
-      "category": "env",
       "minApp": "0.22.0",
       "abis": [
         "arm64-v8a"
