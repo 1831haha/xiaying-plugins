@@ -31,7 +31,7 @@
         "arm64-v8a"
       ],
       "sha256": "d3c346666b5ee0358b6bb350e167449ead085ed0c4325206379311825517890a",
-      "signature": "MEYCIQC+xJ7BNhspc6+LFawuUyxABKIVw6UmTNSmrClO0qgwqgIhAMS9OitoWcRwAtFPCiNdWzDhjT2lvSDWRF0xaSsnf8i4"
+      "signature": "MEUCICdsToijYM21syREU6URnWJc3KuC58SbuqMmS6dBscbUAiEAxy2gaSOTuCD3/hfVP3CeIKFVwFXlrFOgmu1A9SUoLMo="
     },
     {
       "id": "hello-service",
@@ -59,7 +59,7 @@
         "arm64-v8a"
       ],
       "sha256": "1c692fcfc28f3cea80d3db856e6b9fa67aae99ca4d5530e6a1d6d07bebbbf294",
-      "signature": "MEYCIQCMRIx7Wq9ge6+rPO8eUEUnLVcEM8mdeZKzzSgIywhgNQIhAMA04k73Ulab/Oh+9Kyq4Sd6Znc23/6Wtrc0LNkl07Lv"
+      "signature": "MEYCIQDobpKBuqRSm/PY9jF/rwUVy5JnMi01eICu29P3gjWpowIhAJ9Zc1Y6Y6igXgz/KUCyE9Pv+XgJlZe3zr3ycq2GL7jh"
     },
     {
       "id": "py-deps",
@@ -87,7 +87,7 @@
       ],
       "engine": "py",
       "sha256": "e7b01c8e9169b909aacd3dfad62a5e79ea53b5aca837ac6eab0297d8df5f5cf3",
-      "signature": "MEQCIDYKaciP2G0owmOD//evLCruLIcQbySBseGYp3N5L/ewAiBlLy8cV2etk5YQLN2hQkubA/PMyMx4AlaGxOTWqsaaiA=="
+      "signature": "MEQCIEpnMj2D9EHfOcR8p1Ixe7d+r3usOOQfaeD7K3wJS+TBAiAlyFwmO/HD97qlLN+36z2gDIOAQitSk6edVL4K+zObuQ=="
     },
     {
       "id": "mpv-player",
@@ -115,7 +115,7 @@
         "arm64-v8a"
       ],
       "sha256": "3da4c7867019b4c1345058175c7428e88414c39d5aac1ec81736c6891f62d373",
-      "signature": "MEUCIQDARY6nb9VP1kEl+dAfuZ5W4IC/ngWWjmncWGmEGu6CUAIgKjUo2tQPo+EBNED++paodKJMK+5WTssfS9Zg7h+gs+c="
+      "signature": "MEYCIQDoeQvuEvM10B3RvDtEy0sBQVzthHFFM0PJil8tdTK9tgIhAJFj6AgOw70YNsJCrb3aoZ/n1gqOtV5xH4al9s+AuUP0"
     },
     {
       "id": "btsow-source-poster",
@@ -143,7 +143,7 @@
         "arm64-v8a"
       ],
       "sha256": "7a87e2bee4d69f91dcb86b12833d3aad81dc34005b0ad69196534041b9c62f78",
-      "signature": "MEQCIGchPYSSiBDCfeDvAhRZO1NvQBSbrZnKa5KSD2AUUDazAiBAYc6ylNEPSh1Uz/oxpw6RtocGpcOwicTJ2YBKsuN38Q=="
+      "signature": "MEUCIFZt0/vXTaySOpZrgEiCQyy9X9xuRhvLxtC1GNiuuriDAiEAlHnAn/ylJchIthIA2a7ILYH731oGYXpeyhNevlxJrw0="
     },
     {
       "id": "cctv-live",
@@ -173,7 +173,7 @@
       ],
       "updatedAt": "2026-10-24T22:52:53+08:00",
       "sha256": "20a81ce1afc57d3e42ad49b1442926fb60ebd1707a6520787236a6b990344bef",
-      "signature": "MEUCIQDichdcTjPbZJ6ZxmqkcFylFqy9Cs3XczyFn6FWTSoeAgIgZl1ItfXkZ4K3kDqlXtlnIDJLYArIAMofuUEcVMfBCfs="
+      "signature": "MEQCIBLg/E09Zed7mSNTDbsUojn3mtXBNgrkDdHHVLL3LDhTAiBxxa4MCtc3h++pe3ti0aSYzR4WVf8bvur03o8gWQZFOg=="
     },
     {
       "id": "php",
@@ -202,7 +202,7 @@
       ],
       "updatedAt": "2026-10-22T21:17:37Z",
       "sha256": "de3da171d1650ad04704da0002f1837f4b5474cd780a76febc9b18d4663d6bea",
-      "signature": "MEUCIClOvgFVF4cujlcpQII7QV/MFE3L1+xV2EtBXzNj0wWPAiEAmDHY0QxutbN9A2mn59qeRtvAvSxuy47WJc6abWfaNJ4="
+      "signature": "MEUCIQD2P5SA30sQ2WbUiH7wBuq6SgXXxLITz5KSt+ZNuy8XywIgBxcWOjMtiZtSDAKdX9zIDPwnD9+lgWOk81KjBbx1B0Q="
     },
     {
       "id": "danmu-service",
@@ -230,7 +230,7 @@
         "arm64-v8a"
       ],
       "sha256": "2b605cea245b04b8819de282d54743259e8261ba48228590ae071a6f4c4b9b6b",
-      "signature": "MEUCIEkCZKO5GQIX5xSAg1uzF0+GJeg7tf1AzqNCRUKILNW5AiEAiWKqVFaCjMo4vN4ESPI1flf4YnSxk6fnaQEuWLujD9Q="
+      "signature": "MEQCIAt7JQj9mpJ19SRjFYGu6VVhzZfPWMTAQHPHhTwAqSx3AiAyhbF8oVaDLoUt1w8nPh9R5bldMhSPNR0lZEh/Fq8D4w=="
     },
     {
       "id": "setup-dirs",
@@ -257,7 +257,7 @@
         "arm64-v8a"
       ],
       "sha256": "e858ce406c5e249ba3905d706c8ff517f3ce0e311128cdfd09b4391c0589a939",
-      "signature": "MEYCIQDkGxaMYiySYygnCOn4EnXBzkg8gz3ypIfrw3e+7qCg1AIhANt1DJign6gz+KOns0Rf8Q+HCVJCCadyJTnyIf9zryoR"
+      "signature": "MEYCIQD93sxIF7SNUMSo38qPWMTqs9luPOkpZmkM5B/9NdrtmgIhAJ/w1o1cFb1GXXY/10+GsTIo0qZFItkN8EEeRXmkD94R"
     },
     {
       "id": "yt-dlp-generic",
@@ -284,7 +284,7 @@
       ],
       "engine": "py",
       "sha256": "5abda7b1a9f21d8db6ace20dee8c1abf4ec907bf4561f2c2f85502e2331fa967",
-      "signature": "MEUCIGBrEcpD9ox0XaNbAEVH5k1reVXNWIuybFsVTcmseNQtAiEAvQV5bgAEQQPajUMzK9Agb8LrIpHXjZuSOyenWEdwLdo="
+      "signature": "MEUCID2omdz1W0PBThm3mUecuy2yzADiz3wolb4DZkA4tVn+AiEAzWXwMTiQmsuIw1C8d6n9M+2v2ps7cu373uEnwNGDAHs="
     },
     {
       "id": "anime-live",
@@ -313,7 +313,7 @@
       ],
       "updatedAt": "2026-10-31T06:08:22Z",
       "sha256": "4aea37b9f522633b64ce984b76cd1f79374460c893847ac1edd06e42eded2364",
-      "signature": "MEYCIQDl3upz4AFo3p6Bs9T17AYOVtwrtbyppUNODNVJX5uZVQIhAKD/LFuIt2vko8Bmv7LN8SckHWmx5vGVZ7uKMH8cIijb"
+      "signature": "MEYCIQCPbitMZACv4OmdsQcJ6nDc62SClsLf6zfTjVUhp3ow9AIhALFRqBy9fleTSPAMuqFys2zhG6fHrXtbgYItSMtt5kd5"
     },
     {
       "id": "world-travel-live",
@@ -342,7 +342,7 @@
       ],
       "updatedAt": "2026-10-31T06:08:22Z",
       "sha256": "9ff8f109b616afa58d38e1f4168a5d6d07d863535d025b2c02f0c6eae2c617cc",
-      "signature": "MEUCIQCcgDnkPloCuFpUUwzooUZY0dGoLMiuaxfAJB4AO2lNjgIgMADAm72FPN1cRNhOfEhzs7tvQ/nji72gkEITzuZs2ec="
+      "signature": "MEUCIQCO6WpQ1/y79QMeDuXUoi1yJMCnrEov86gwyRyue0EAggIgVodtlu0ao+OdNYO2lG+uyLdSB1v/O9cs7Tt1YXUmgHY="
     },
     {
       "id": "music-mv-live",
@@ -371,7 +371,7 @@
       ],
       "updatedAt": "2026-10-31T06:08:22Z",
       "sha256": "c3387dc15b12039b60285df27b0d88f9bb69eb86c4490674e556f2d633f7394d",
-      "signature": "MEYCIQD/4xOHjXgtufaKGaPw5gtrbXzCQuEy6pPJzp+c4LsJ/gIhAKqpHhovegAXcrspnn/4H5DZGlOp8ndWeEfJAEUkDhgm"
+      "signature": "MEYCIQCxYfNlfK1EW9sDm2X+CjUjc5gywh2ldSR3yDc03WsxHQIhALYyxD+rxN9ap/QHP13xsNfnTIzFjF5iNAb9/Z/aBFWy"
     },
     {
       "id": "relax-radio",
@@ -400,7 +400,7 @@
       ],
       "updatedAt": "2026-10-31T06:08:22Z",
       "sha256": "04d37331359959ea1586836f95015921e72b35328a323db67124856df7941c9d",
-      "signature": "MEYCIQCtUaLSJafNj+7rVMigFQx/nLCAFbjpWqKnhV/HyfUyWgIhALr9i5fY2ob8ctDfESWQg8FmYPWg69gZ1ZMV3lEECQdO"
+      "signature": "MEYCIQDIEwUeOQBJwRwGIVYGc90PON57b2NC3PU+knsHuQikFwIhAPzuivgG6UMWGw5XnzFil1ZHWOfJ3fVa1upJHYNZGG9J"
     },
     {
       "id": "cn-radio",
@@ -429,7 +429,7 @@
       ],
       "updatedAt": "2026-10-31T06:08:22Z",
       "sha256": "c2bee98e0a702caff6edfe6608a495c3fd07c87fc2332033fdde17a15630c6f1",
-      "signature": "MEYCIQCRmqaGm4CMqV12RmcgGBSdYlIjJ+DA+8+bBCSauI2g4gIhAM+Q8EPcxlxmLNwyXjQYE+S168eetczomNkBR+bYXEwK"
+      "signature": "MEYCIQDsN6GdjUL+95l/F9uh8sa/2L5QDwjeD1nVDlTW7MzpjgIhAIGRRCdpXaFwsqsm9NjktJtlPJFBavASdBAJH6FFS4u8"
     },
     {
       "id": "sub-iptv-org-zh",
@@ -457,7 +457,7 @@
       ],
       "updatedAt": "2026-10-31T06:26:16Z",
       "sha256": "aec1a8e7be47c0921254f7e41b7a81ce28076facc48e5c9d1ef13f81c4d3a27e",
-      "signature": "MEYCIQC8BkbGnaBQigekHFMPwYUOqqIPeTUVlCrAP2Mlh+mqIAIhANR5qLPb7mlVxGaSgDYVlALAZ2sc7wSFBKFlzOv4cdBj"
+      "signature": "MEYCIQDcGWYbZywrBfh18G/QU/7Un2kcNSFlJd37Inw4ONLI8QIhAMX9DIQj+22EbbF59HNb5dQAuJCWITBBkut+j0kDWCxV"
     },
     {
       "id": "sub-iptv-org-world",
@@ -485,7 +485,7 @@
       ],
       "updatedAt": "2026-10-31T06:26:16Z",
       "sha256": "607bc4a6803fb625c514bd395dafdc0cbbc6da11ad5f73ffa3d03d3bc3e2e076",
-      "signature": "MEQCIETTumyABIkhj1TFOpVd+pxjAbvFVuqLDGaBaLgTi3ThAiA0XpKGiBS0LmMgoAmUfIWbk9Wc/WNkwPDUnzM2U94gPg=="
+      "signature": "MEUCIQCb+fqBxohUTIpE7wj+Lf52ujZubx7URtKR/gCo+8rsfAIgAx9W/Z5jQyAi4mGBsH2tbCaM6P0pUVDOP8JaTfcbQ9w="
     },
     {
       "id": "sub-cn-autotest",
@@ -513,7 +513,7 @@
       ],
       "updatedAt": "2026-10-31T06:26:16Z",
       "sha256": "5da0c6fcd812be117abb67499aabf9bdfb9a90367674f62d854aa33ed49fa772",
-      "signature": "MEUCIE/6BGtl3eufsEiZZ7u3QFI8QeIfElxh0cJPDSwnJwSFAiEA62qlM9/uolna5PiBA2p4uzL79n5NcEwsxnWgw5wftbE="
+      "signature": "MEUCIQCRohiDoLeAMtKtR9EHGgYmO0ip+DSNxvP19sv0O42SywIgNh+8mDdOdce3nM0w3Kqn5dMQhxbyajAlWaS9FPL5aVY="
     },
     {
       "id": "magnet-engine",
@@ -542,7 +542,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "signature": "MEYCIQC5q9Ys/bvTzuHiDQWgI3FhpNSLKVcInmZ6zYV66hmsTQIhAK/SgnJJICFOpjdYJ6vw2kIJf/bc8gKOBDfAFxk00r/Z"
+      "signature": "MEYCIQCcmXlMKRwynHF5IXrPJBTjC0mArqVbCISkjBsOubCh9QIhAJgPLFdX+VHWxUihZjwp0dVvY/WwHUoxiWWB+jY3K2B4"
     },
     {
       "id": "xunlei-engine",
@@ -571,25 +571,25 @@
       "abis": [
         "arm64-v8a"
       ],
-      "signature": "MEUCIHDt0LN/IZMJKwflsXKIX7+0RVkANidjK0FjFPoRBQKQAiEAt61A1YUgHYHdQclWLp2uejbZU4tyGrkw+9R0Zm21tC0="
+      "signature": "MEUCIGnMqXGxxKbapVHbvySXrf9s1sppUSmT5gaaLCjT84xaAiEAriQOjLNSICwxdrrA1bnpUp/HIhCFJNWV4d1hVTNAszI="
     },
     {
       "id": "clash",
       "name": "Clash 代理",
       "author": "侠影",
       "desc": "Clash 代理服务（mihomo）：给需要 VPN 的源走本地代理。订阅在侠影设置页里填，只存本机；PROXY 组自动挑延迟最低的节点。",
-      "version": "1.19.34.2",
+      "version": "1.19.34.3",
       "type": "server",
       "engine": "sh",
-      "size": 21730678,
-      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/clash-1.19.34.2.zip",
+      "size": 21730990,
+      "url": "https://raw.githubusercontent.com/1831haha/xiaying-plugins/main/packages/clash-1.19.34.3.zip",
       "icon": "icons/market.png",
       "tags": [
         "代理",
         "服务"
       ],
-      "changelog": "v1.19.34.2：linker64 要求程序路径绝对路径——start.sh 改传 \"$PWD/mihomo\"，修真机启动即报 error: expected absolute path: \"./mihomo\"、进程 exit=1。",
-      "md5": "ce43b7e63139bd3eb766f791b3501c89",
+      "changelog": "v1.19.34.3：共享存储是 noexec 挂载，linker64 mmap 程序段被拒（couldn't map \".../mihomo\" segment 3: Permission denied）——start.sh 先把 mihomo 拷到私有目录再跑 linker64，修 1.19.34.2 更新后仍异常。",
+      "md5": "5770f7a4edeae1cc58fabd7563e82880",
       "platforms": [
         "android"
       ],
@@ -598,9 +598,9 @@
       "abis": [
         "arm64-v8a"
       ],
-      "sha256": "03eb557349099ce812b6a27a56a5b6ee5345a4ac0b986ce0bc70c432e93de80d",
-      "signature": "MEQCIA1FElgg/ci9ARQyB7t/azTa01vB79WaEQDd7ynXkGeHAiA6uncepENVG8brN+RDVCo9jBDck917HlJwBD0qDLUXtg=="
+      "sha256": "3cb826c39457f820451b0a0b8884570ffddc27a052601969714b15e1a7f964ac",
+      "signature": "MEUCIQCXCg9380oZb3s4ja7dsBwjeFmJdazzdfQjqqEyWmKd5wIgRyZSyOjHndte0eIPuqSILZ5kA2XmSuDuBF2RBamT3pA="
     }
   ],
-  "signature": "MEUCIBDw657GXr2j4rHRJD/OFvCOgMKFPU0AmbG60VZSbR8mAiEAr/pVMrXHtUoG6I9+cZcRisVDLqCODJjBM6amnzUW3Hg="
+  "signature": "MEUCICDGj8VPdiNxWD4bSYR7Scup8ooDiIThpktJIIBUtcHaAiEA+XeSiAf/PUTj3mZygh/bAw5n2WhlsDZ6+3VYPYWmUEA="
 }
