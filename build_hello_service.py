@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""生成 hello-service 正式版服务包 packages/hello-service-1.1.0.zip。
+"""生成 hello-service 正式版服务包 packages/hello-service-1.1.1.zip。
 
 hello-service 是侠影官方示例服务（服务型插件参考模板）：现在唯一能真跑的
 服务示例。包结构按本仓 SERVER_PLUGIN_SPEC.md（server.json v1）：
@@ -18,19 +18,19 @@ import zipfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OUT_ZIP = HERE / "packages" / "hello-service-1.1.0.zip"
+OUT_ZIP = HERE / "packages" / "hello-service-1.1.1.zip"
 FIXED_DATE = (2026, 1, 1, 0, 0, 0)
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 
 # 示例服务本体：/system/bin/sh 小服务。PORT/SERVICE_PORT 由 App 启动时注入；
 # 有 nc 时用 FIFO 双工模式提供极简 HTTP（/healthz 回 OK、/ 与其余路径回文本
 # 状态页），nc 不可用/参数不兼容就打日志转心跳保活（进程存活即状态 RUNNING）。
 # FIFO 一律建在 App 注入的 TMPDIR（私有目录）——共享存储 FUSE 建不了 FIFO。
 SERVER_SH = r"""#!/system/bin/sh
-# hello-service 1.1.0: 侠影示例服务（服务型插件参考模板）
+# hello-service 1.1.1: 侠影示例服务（服务型插件参考模板）
 # PORT/SERVICE_PORT 由侠影 App 启动时注入环境变量，只绑 127.0.0.1。
 PORT="${PORT:-${SERVICE_PORT:-29578}}"
-echo "[hello-service] 侠影示例服务 1.1.0 启动，监听 127.0.0.1:$PORT，时间 $(date '+%Y-%m-%d %H:%M:%S')"
+echo "[hello-service] 侠影示例服务 1.1.1 启动，监听 127.0.0.1:$PORT，时间 $(date '+%Y-%m-%d %H:%M:%S')"
 
 # 处理一次请求：从 stdin 读请求行，响应写 stdout（调用方把 stdout 接到 FIFO 喂回 nc）。
 serve_once() {
@@ -41,7 +41,7 @@ serve_once() {
       printf 'HTTP/1.1 200 OK\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 2\r\nConnection: close\r\n\r\nOK'
       ;;
     *)
-      BODY="侠影示例服务 hello-service 1.1.0
+      BODY="侠影示例服务 hello-service 1.1.1
 状态：运行中
 时间：$(date '+%Y-%m-%d %H:%M:%S')
 监听：127.0.0.1:$PORT
@@ -67,11 +67,17 @@ if command -v nc >/dev/null 2>&1; then
     echo "[hello-service] 使用 nc 在 127.0.0.1:$PORT 提供 HTTP（/healthz 探活、/ 状态页）"
     # FIFO 双工：nc 的 stdin 从 FIFO 读响应，请求经管道进 serve_once，
     # serve_once 的 stdout 重定向回 FIFO——两端在启动时互相 rendezvous。
+    # toybox nc 会把 -l 后多余的位置参数当成连接后来执行的程序：
+    # `nc -l -p PORT 127.0.0.1` 会在每次连接时 exec "127.0.0.1"，
+    # 报 Permission denied、连接全失败。监听地址改用 -s 传。
+    # 另：管道的退出码是 serve_once 的，mksh 又没有 PIPESTATUS，
+    # nc 绑不上端口时循环会空转刷屏——把 nc 的 stderr 单独记到文件，
+    # 命中 "Address already in use" 才 sleep 1 秒限速；正常请求
+    # 处理完立即重绑，不留 1 秒空窗（否则探活会撞上拒连）。
     while true; do
-      nc -l -p "$PORT" 127.0.0.1 <"$FIFO" | serve_once >"$FIFO" || break
+      nc -l -s 127.0.0.1 -p "$PORT" <"$FIFO" 2>"$TMP/.nc_err" | serve_once >"$FIFO"
+      if grep -q "Address already in use" "$TMP/.nc_err" 2>/dev/null; then sleep 1; fi
     done
-    echo "[hello-service] nc 服务循环退出（参数可能不兼容），转入心跳保活"
-    rm -f "$FIFO"
   else
     echo "[hello-service] 无法创建 FIFO，转入心跳保活"
   fi

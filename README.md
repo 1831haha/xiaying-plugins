@@ -58,11 +58,11 @@
 
 | 条目 | id | 版本 | type | 包 |
 |---|---|---|---|---|
-| 示例服务 | `hello-service` | 1.1.0 | server | `hello-service-1.1.0.zip` |
+| 示例服务 | `hello-service` | 1.1.1 | server | `hello-service-1.1.1.zip` |
 | PY 引擎依赖包 | `py-deps` | 1.0.0 | env | `py-deps-1.0.0.zip` |
 | yt-dlp 通用解析包 | `yt-dlp-generic` | 1.0.0 | env | `yt-dlp-generic-1.0.0.zip` |
 | PHP 运行时 | `php` | 8.3.36 | runtime | `php-8.3.36-dynamic.zip` |
-| 弹幕服务 | `danmu-service` | 1.0.0 | server | `danmu-service-1.0.0.zip` |
+| 弹幕服务 | `danmu-service` | 1.0.1 | server | `danmu-service-1.0.1.zip` |
 | Clash 代理 | `clash` | 1.19.34.2 | server | `clash-1.19.34.2.zip` |
 
 ### 应用（app）

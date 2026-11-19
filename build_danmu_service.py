@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""生成 danmu-service 1.0.0 弹幕服务包 packages/danmu-service-1.0.0.zip。
+"""生成 danmu-service 1.0.1 弹幕服务包 packages/danmu-service-1.0.1.zip。
 
 侠影弹幕服务（只看不发）：按标题聚合 14 家 LogVar 弹幕源（同一套软件的
 不同部署，每家库不同，聚合提高命中率），合并去重后回 JSON 列表。
@@ -34,9 +34,9 @@ import zipfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OUT_ZIP = HERE / "packages" / "danmu-service-1.0.0.zip"
+OUT_ZIP = HERE / "packages" / "danmu-service-1.0.1.zip"
 FIXED_DATE = (2026, 1, 1, 0, 0, 0)
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # 弹幕服务本体：/system/bin/sh 小服务，照 hello-service 的 sh + nc + FIFO 套路。
 # PORT/SERVICE_PORT 由 App 启动时注入；server.json port 填 0，App 从 29578 起
@@ -45,7 +45,7 @@ VERSION = "1.0.0"
 # 调试：DANMU_SINGLE_REQUEST=1 时从 stdin 读一次 HTTP 请求并回响应后退出
 # （不用 nc，供沙箱/真机 adb 下独立验证取数链路）。
 SERVER_SH = r"""#!/system/bin/sh
-# danmu-service 1.0.0: 侠影弹幕服务（只看不发）
+# danmu-service 1.0.1: 侠影弹幕服务（只看不发）
 # 按标题聚合 14 家 LogVar 弹幕源，合并去重后回 JSON 列表。
 # 只提供拉取接口：GET /healthz（探活）、GET /（状态页）、
 # GET /danmaku?title=<标题>&episode=<集数>（回 JSON 列表）。
@@ -53,7 +53,7 @@ SERVER_SH = r"""#!/system/bin/sh
 # PORT/SERVICE_PORT 由侠影 App 启动时注入环境变量，只绑 127.0.0.1。
 # 运行：/system/bin/sh server.sh（App 经 sh 解释执行，与 hello-service 同口径）。
 PORT="${PORT:-${SERVICE_PORT:-29580}}"
-VERSION="1.0.0"
+VERSION="1.0.1"
 TMP="${TMPDIR:-/tmp}"
 mkdir -p "$TMP" 2>/dev/null
 
@@ -341,11 +341,17 @@ if command -v nc >/dev/null 2>&1; then
     echo "[danmu-service] 使用 nc 在 127.0.0.1:$PORT 提供 HTTP（/healthz 探活、/ 状态页、/danmaku 取数）"
     # FIFO 双工：nc 的 stdin 从 FIFO 读响应，请求经管道进 serve_once，
     # serve_once 的 stdout 重定向回 FIFO——两端在启动时互相 rendezvous。
+    # toybox nc 会把 -l 后多余的位置参数当成连接后来执行的程序：
+    # `nc -l -p PORT 127.0.0.1` 会在每次连接时 exec "127.0.0.1"，
+    # 报 Permission denied、连接全失败。监听地址改用 -s 传。
+    # 另：管道的退出码是 serve_once 的，mksh 又没有 PIPESTATUS，
+    # nc 绑不上端口时循环会空转刷屏——把 nc 的 stderr 单独记到文件，
+    # 命中 "Address already in use" 才 sleep 1 秒限速；正常请求
+    # 处理完立即重绑，不留 1 秒空窗（否则探活会撞上拒连）。
     while true; do
-      nc -l -p "$PORT" 127.0.0.1 <"$FIFO" | serve_once >"$FIFO" || break
+      nc -l -s 127.0.0.1 -p "$PORT" <"$FIFO" 2>"$TMP/.nc_err" | serve_once >"$FIFO"
+      if grep -q "Address already in use" "$TMP/.nc_err" 2>/dev/null; then sleep 1; fi
     done
-    echo "[danmu-service] nc 服务循环退出（参数可能不兼容），转入心跳保活"
-    rm -f "$FIFO"
   else
     echo "[danmu-service] 无法创建 FIFO，转入心跳保活"
   fi
