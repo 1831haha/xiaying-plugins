@@ -62,7 +62,7 @@
 | PY 引擎依赖包 | `py-deps` | 1.0.0 | env | `py-deps-1.0.0.zip` |
 | yt-dlp 通用解析包 | `yt-dlp-generic` | 1.0.0 | env | `yt-dlp-generic-1.0.0.zip` |
 | PHP 运行时 | `php` | 8.3.36 | runtime | `php-8.3.36-dynamic.zip` |
-| 弹幕服务 | `danmu-service` | 1.0.1 | server | `danmu-service-1.0.1.zip` |
+| 弹幕服务 | `danmu-service` | 1.0.2 | server | `danmu-service-1.0.2.zip` |
 | Clash 代理 | `clash` | 1.19.34.3 | server | `clash-1.19.34.3.zip` |
 
 ### 应用（app）

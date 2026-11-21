@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""生成 danmu-service 1.0.1 弹幕服务包 packages/danmu-service-1.0.1.zip。
+"""生成 danmu-service 1.0.2 弹幕服务包 packages/danmu-service-1.0.2.zip。
 
-侠影弹幕服务（只看不发）：按标题聚合 14 家 LogVar 弹幕源（同一套软件的
+侠影弹幕服务（只看不发）：按标题聚合内置 14 家 LogVar 弹幕源（同一套软件的
 不同部署，每家库不同，聚合提高命中率），合并去重后回 JSON 列表。
+1.0.2 新增：读 CUSTOM_HOSTS 环境变量（逗号分隔，App 侧序列化，见 §5.2），
+逗号转空格后追加到内置 14 家之后（上限 10，总数 ≤24）；状态页上游家数
+动态计数。空 CUSTOM_HOSTS 时行为与 1.0.1 完全一致。
 包结构按本仓 SERVER_PLUGIN_SPEC.md（server.json v1）：
 根部 server.json + plugin.json + danmu-service/server.sh。server.json 里的
 sha256 是 server.sh 的实算摘要（安装时 App 按同一口径校验）。
@@ -34,9 +37,9 @@ import zipfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OUT_ZIP = HERE / "packages" / "danmu-service-1.0.1.zip"
+OUT_ZIP = HERE / "packages" / "danmu-service-1.0.2.zip"
 FIXED_DATE = (2026, 1, 1, 0, 0, 0)
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 # 弹幕服务本体：/system/bin/sh 小服务，照 hello-service 的 sh + nc + FIFO 套路。
 # PORT/SERVICE_PORT 由 App 启动时注入；server.json port 填 0，App 从 29578 起
@@ -45,21 +48,30 @@ VERSION = "1.0.1"
 # 调试：DANMU_SINGLE_REQUEST=1 时从 stdin 读一次 HTTP 请求并回响应后退出
 # （不用 nc，供沙箱/真机 adb 下独立验证取数链路）。
 SERVER_SH = r"""#!/system/bin/sh
-# danmu-service 1.0.1: 侠影弹幕服务（只看不发）
-# 按标题聚合 14 家 LogVar 弹幕源，合并去重后回 JSON 列表。
+# danmu-service 1.0.2: 侠影弹幕服务（只看不发）
+# 按标题聚合内置 14 家 LogVar 弹幕源，合并去重后回 JSON 列表；CUSTOM_HOSTS
+# （逗号分隔，App 经 env 传入）追加到内置 14 家之后（上限 10，总数 ≤24）。
 # 只提供拉取接口：GET /healthz（探活）、GET /（状态页）、
 # GET /danmaku?title=<标题>&episode=<集数>（回 JSON 列表）。
 # 没有任何发送/发表弹幕的接口；不碰播放器覆盖层、开关、缓存。
 # PORT/SERVICE_PORT 由侠影 App 启动时注入环境变量，只绑 127.0.0.1。
 # 运行：/system/bin/sh server.sh（App 经 sh 解释执行，与 hello-service 同口径）。
 PORT="${PORT:-${SERVICE_PORT:-29580}}"
-VERSION="1.0.1"
+VERSION="1.0.2"
 TMP="${TMPDIR:-/tmp}"
 mkdir -p "$TMP" 2>/dev/null
 
 # 14 家 LogVar 弹幕源（同一套软件的不同部署，每家库不同；API 走 host 根，
 # 不要带各部署自己的页面路由后缀）。全部 https。
-HOSTS="dm.999.team danmu.qianting168.com dm.ljiaovm.com danmu.longemby.com justdanmu.irisnb.com dandan.wenjian.de danmu.cynn.top dmfl.us.ci danmu.0000996.xyz dm.taotu.ink logvardm.278612356.xyz logvar.hhht.cc.cd dm.66608880.xyz danmu.iyo.us.ci"
+# CUSTOM_HOSTS：逗号分隔的自定义弹幕源 host（App 经 env 传入，序列化前已过
+# normalizeDanmakuHost、去掉与内置 14 家重复的项，上限 10 个）；必须先逗号
+# 转空格再追加——HOSTS 是空格分隔的 shell 词表，逗号原样代入会被当成一个词。
+# 为空时只用内置 14 家；带空格/前后逗号时多余分隔符只产生空白，词表切分时
+# 不产生空词。
+HOSTS="dm.999.team danmu.qianting168.com dm.ljiaovm.com danmu.longemby.com justdanmu.irisnb.com dandan.wenjian.de danmu.cynn.top dmfl.us.ci danmu.0000996.xyz dm.taotu.ink logvardm.278612356.xyz logvar.hhht.cc.cd dm.66608880.xyz danmu.iyo.us.ci $(printf '%s' "$CUSTOM_HOSTS" | tr ',' ' ')"
+# 上游总数（内置 14 家 + 自定义追加），状态页动态显示。wc -w 只数词，
+# 首尾/连续空白不产生空词。
+HOST_COUNT=$(printf '%s' "$HOSTS" | wc -w | tr -d ' ')
 
 # 弹弹play 官方补充源（默认关闭）：官方现已要求应用凭证，匿名调用 403。
 DANDAN_HOST="api.dandanplay.net"
@@ -247,7 +259,7 @@ dandan_fetch() {
   return 0
 }
 
-# ---- /danmaku：聚合 14 家 + 补充源，合并去重排序回 JSON 数组 ----
+# ---- /danmaku：聚合内置 14 家 + CUSTOM_HOSTS 追加 + 补充源，合并去重排序回 JSON 数组 ----
 danmaku_json() {
   # $1=标题 $2=集数
   if [ -z "$1" ] || [ -z "$FETCH_TOOL" ]; then printf '[]'; return 0; fi
@@ -292,7 +304,7 @@ serve_once() {
       _body="侠影弹幕服务 danmu-service $VERSION
 状态：运行中
 监听：127.0.0.1:$PORT
-上游：14 家 LogVar 弹幕源聚合（单家 5 秒超时、失败跳过）
+上游：$HOST_COUNT 家 LogVar 弹幕源聚合（单家 5 秒超时、失败跳过）
 接口：GET /healthz（探活）、GET /danmaku?title=标题&episode=集数（回 JSON 列表）
 红线：只看不发，无发送接口
 取数工具：${FETCH_TOOL:-无（未找到 curl/wget，/danmaku 将回空列表）}"
@@ -382,7 +394,7 @@ def build() -> bytes:
         "command": "server.sh",
         "args": [],
         "port": 0,
-        "env": {},
+        "env": {"CUSTOM_HOSTS": ""},
         "healthMode": "HTTP",
         "healthPath": "/healthz",
         "autoStart": False,
